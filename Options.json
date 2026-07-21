@@ -5500,16 +5500,6 @@
     "DefaultValue": 1
   },
   {
-    "Id": 10000015,
-    "Type": 1,
-    "Name": "ExclusionTairou",
-    "Value": 1,
-    "Max": null,
-    "Min": null,
-    "Step": null,
-    "DefaultValue": 1
-  },
-  {
     "Id": 10000012,
     "Type": 1,
     "Name": "BigBangCanKillMad",
@@ -44793,7 +44783,7 @@
     "Id": 115600,
     "Type": 3,
     "Name": "GameKillCooldown",
-    "Value": 90,
+    "Value": 60,
     "Max": 180,
     "Min": 0,
     "Step": 0.5,
