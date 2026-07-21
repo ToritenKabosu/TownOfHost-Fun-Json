@@ -21503,7 +21503,7 @@
     "Id": 12909,
     "Type": 7,
     "Name": "SideKickOption",
-    "Value": 0,
+    "Value": -2,
     "Max": null,
     "Min": null,
     "Step": null,
