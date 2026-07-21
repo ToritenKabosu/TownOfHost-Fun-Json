@@ -41520,66 +41520,6 @@
     "DefaultValue": 0
   },
   {
-    "Id": 10002300,
-    "Type": 4,
-    "Name": "GhostDragger",
-    "Value": 10,
-    "Max": 100,
-    "Min": 0,
-    "Step": 10,
-    "DefaultValue": 0
-  },
-  {
-    "Id": 10002301,
-    "Type": 4,
-    "Name": "Maximum",
-    "Value": 0,
-    "Max": 1,
-    "Min": 1,
-    "Step": 1,
-    "DefaultValue": 0
-  },
-  {
-    "Id": 10002302,
-    "Type": 3,
-    "Name": "Cooldown",
-    "Value": 50,
-    "Max": 180,
-    "Min": 0,
-    "Step": 0.5,
-    "DefaultValue": 50
-  },
-  {
-    "Id": 10002303,
-    "Type": 3,
-    "Name": "GhostDraggerDuration",
-    "Value": 50,
-    "Max": 180,
-    "Min": 0,
-    "Step": 0.5,
-    "DefaultValue": 50
-  },
-  {
-    "Id": 10002304,
-    "Type": 4,
-    "Name": "GhostDraggerCount",
-    "Value": 0,
-    "Max": 50,
-    "Min": 1,
-    "Step": 1,
-    "DefaultValue": 0
-  },
-  {
-    "Id": 10002305,
-    "Type": 1,
-    "Name": "AssgingMadmate",
-    "Value": 0,
-    "Max": null,
-    "Min": null,
-    "Step": null,
-    "DefaultValue": 0
-  },
-  {
     "Id": 114000,
     "Type": 0,
     "Name": "SlotRole1",
