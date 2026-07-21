@@ -534,9 +534,9 @@
     "Type": 6,
     "Name": "SuddenRedTeamRole",
     "Value": 0,
-    "Max": 228,
-    "Min": 228,
-    "Step": 228,
+    "Max": 229,
+    "Min": 229,
+    "Step": 229,
     "DefaultValue": 0
   },
   {
@@ -544,9 +544,9 @@
     "Type": 6,
     "Name": "SuddenBlueTeamRole",
     "Value": 0,
-    "Max": 228,
-    "Min": 228,
-    "Step": 228,
+    "Max": 229,
+    "Min": 229,
+    "Step": 229,
     "DefaultValue": 0
   },
   {
@@ -554,9 +554,9 @@
     "Type": 6,
     "Name": "SuddenYellowTeamRole",
     "Value": 0,
-    "Max": 228,
-    "Min": 228,
-    "Step": 228,
+    "Max": 229,
+    "Min": 229,
+    "Step": 229,
     "DefaultValue": 0
   },
   {
@@ -564,9 +564,9 @@
     "Type": 6,
     "Name": "SuddenGreenTeamRole",
     "Value": 0,
-    "Max": 228,
-    "Min": 228,
-    "Step": 228,
+    "Max": 229,
+    "Min": 229,
+    "Step": 229,
     "DefaultValue": 0
   },
   {
@@ -574,9 +574,9 @@
     "Type": 6,
     "Name": "SuddenPurpleTeamRole",
     "Value": 0,
-    "Max": 228,
-    "Min": 228,
-    "Step": 228,
+    "Max": 229,
+    "Min": 229,
+    "Step": 229,
     "DefaultValue": 0
   },
   {
@@ -3054,7 +3054,7 @@
     "Type": 2,
     "Name": "AssassinHaveRole",
     "Value": 0,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -5900,6 +5900,146 @@
     "DefaultValue": 2
   },
   {
+    "Id": 10007500,
+    "Type": 4,
+    "Name": "Ozwald",
+    "Value": 0,
+    "Max": 100,
+    "Min": 0,
+    "Step": 10,
+    "DefaultValue": 0
+  },
+  {
+    "Id": 10007501,
+    "Type": 4,
+    "Name": "Maximum",
+    "Value": 0,
+    "Max": 3,
+    "Min": 1,
+    "Step": 1,
+    "DefaultValue": 0
+  },
+  {
+    "Id": 10007510,
+    "Type": 3,
+    "Name": "KillCooldown",
+    "Value": 70,
+    "Max": 180,
+    "Min": 0,
+    "Step": 0.5,
+    "DefaultValue": 70
+  },
+  {
+    "Id": 10007511,
+    "Type": 3,
+    "Name": "BindCooldown",
+    "Value": 30,
+    "Max": 180,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 30
+  },
+  {
+    "Id": 10007512,
+    "Type": 3,
+    "Name": "BindDuration",
+    "Value": 5,
+    "Max": 10,
+    "Min": 0.5,
+    "Step": 0.5,
+    "DefaultValue": 5
+  },
+  {
+    "Id": 10007513,
+    "Type": 4,
+    "Name": "MaxBoundPlayers",
+    "Value": 2,
+    "Max": 15,
+    "Min": 2,
+    "Step": 1,
+    "DefaultValue": 2
+  },
+  {
+    "Id": 10007514,
+    "Type": 1,
+    "Name": "CanBindImpostors",
+    "Value": 0,
+    "Max": null,
+    "Min": null,
+    "Step": null,
+    "DefaultValue": 0
+  },
+  {
+    "Id": 10007515,
+    "Type": 3,
+    "Name": "AnnihilateCooldown",
+    "Value": 40,
+    "Max": 180,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 40
+  },
+  {
+    "Id": 10007516,
+    "Type": 4,
+    "Name": "MaxAnnihilations",
+    "Value": 2,
+    "Max": 8,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 2
+  },
+  {
+    "Id": 10007517,
+    "Type": 3,
+    "Name": "MaxLinkDistance",
+    "Value": 3,
+    "Max": 10,
+    "Min": 0.5,
+    "Step": 0.5,
+    "DefaultValue": 3
+  },
+  {
+    "Id": 10007518,
+    "Type": 3,
+    "Name": "DistanceBonusPerLink",
+    "Value": 2,
+    "Max": 10,
+    "Min": 0,
+    "Step": 0.1,
+    "DefaultValue": 2
+  },
+  {
+    "Id": 10007519,
+    "Type": 3,
+    "Name": "AnnihilationWidthTwoPlayers",
+    "Value": 1,
+    "Max": 1,
+    "Min": 0.1,
+    "Step": 0.1,
+    "DefaultValue": 1
+  },
+  {
+    "Id": 10007520,
+    "Type": 1,
+    "Name": "ShowArrowToOzwaldOnDiscovery",
+    "Value": 1,
+    "Max": null,
+    "Min": null,
+    "Step": null,
+    "DefaultValue": 1
+  },
+  {
+    "Id": 10007521,
+    "Type": 3,
+    "Name": "ArrowDisplayDuration",
+    "Value": 30,
+    "Max": 30,
+    "Min": 0,
+    "Step": 0.1,
+    "DefaultValue": 30
+  },
+  {
     "Id": 4099,
     "Type": 7,
     "Name": "ObjectName.Impostor.4",
@@ -6374,7 +6514,7 @@
     "Type": 0,
     "Name": "InsiderCanSeeRoles",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -7024,7 +7164,7 @@
     "Type": 0,
     "Name": "FortunerAddGiveAddon",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -7130,17 +7270,17 @@
     "DefaultValue": 0
   },
   {
-    "Id": 100003100,
+    "Id": 10003500,
     "Type": 4,
     "Name": "PetMaster",
-    "Value": 10,
+    "Value": 0,
     "Max": 100,
     "Min": 0,
     "Step": 10,
     "DefaultValue": 0
   },
   {
-    "Id": 100003101,
+    "Id": 10003501,
     "Type": 4,
     "Name": "Maximum",
     "Value": 0,
@@ -7150,7 +7290,7 @@
     "DefaultValue": 0
   },
   {
-    "Id": 100003110,
+    "Id": 10003510,
     "Type": 3,
     "Name": "PetCooldown",
     "Value": 8,
@@ -7160,7 +7300,7 @@
     "DefaultValue": 8
   },
   {
-    "Id": 100003111,
+    "Id": 10003511,
     "Type": 4,
     "Name": "OneGameMaximumSkillUsages",
     "Value": 79,
@@ -12734,7 +12874,7 @@
     "Type": 0,
     "Name": "FortunerAddGiveAddon",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -18300,6 +18440,16 @@
     "DefaultValue": 0
   },
   {
+    "Id": 100003620,
+    "Type": 1,
+    "Name": "RemoveOzwald",
+    "Value": 0,
+    "Max": null,
+    "Min": null,
+    "Step": null,
+    "DefaultValue": 0
+  },
+  {
     "Id": 10004100,
     "Type": 4,
     "Name": "Responder",
@@ -23824,7 +23974,7 @@
     "Type": 2,
     "Name": "AssassinHaveRole",
     "Value": 0,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -34544,7 +34694,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -34674,7 +34824,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -34804,7 +34954,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -34934,7 +35084,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -35064,7 +35214,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -35194,7 +35344,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -35324,7 +35474,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -35454,7 +35604,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -35544,7 +35694,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -35564,7 +35714,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -36474,7 +36624,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -36494,7 +36644,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -36514,7 +36664,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -36534,7 +36684,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -36554,7 +36704,7 @@
     "Type": 0,
     "Name": "AssignAddon",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -36604,7 +36754,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -36624,7 +36774,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -36644,7 +36794,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -36664,7 +36814,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -36754,7 +36904,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -36774,7 +36924,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -36794,7 +36944,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -36814,7 +36964,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -36854,7 +37004,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -36874,7 +37024,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -36894,7 +37044,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -36914,7 +37064,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -36974,7 +37124,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -36994,7 +37144,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -37014,7 +37164,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -37034,7 +37184,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -37074,7 +37224,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -37094,7 +37244,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -37114,7 +37264,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -37134,7 +37284,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -37204,7 +37354,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -37224,7 +37374,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -37244,7 +37394,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -37264,7 +37414,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -37524,7 +37674,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -37544,7 +37694,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -37584,7 +37734,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -37604,7 +37754,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -37624,7 +37774,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -37644,7 +37794,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -37704,7 +37854,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -37724,7 +37874,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -37774,7 +37924,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -37804,7 +37954,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -37864,7 +38014,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -37884,7 +38034,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -37904,7 +38054,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -37924,7 +38074,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -37984,7 +38134,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -38004,7 +38154,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -38024,7 +38174,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -38044,7 +38194,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -38084,7 +38234,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -38134,7 +38284,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -38164,7 +38314,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -38224,7 +38374,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -38244,7 +38394,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -38264,7 +38414,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -38284,7 +38434,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -38334,7 +38484,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -38354,7 +38504,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -38374,7 +38524,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -38394,7 +38544,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -38444,7 +38594,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -38474,7 +38624,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -38524,7 +38674,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -38554,7 +38704,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -38604,7 +38754,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -38624,7 +38774,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -38644,7 +38794,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -38664,7 +38814,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -38734,7 +38884,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -38764,7 +38914,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -38824,7 +38974,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -38844,7 +38994,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -38864,7 +39014,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -38884,7 +39034,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -38974,7 +39124,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -38994,7 +39144,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -39014,7 +39164,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -39054,7 +39204,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -39074,7 +39224,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -39094,7 +39244,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -39134,7 +39284,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -39154,7 +39304,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -39174,7 +39324,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -39194,7 +39344,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -39294,7 +39444,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -39314,7 +39464,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -39334,7 +39484,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -39354,7 +39504,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -39394,7 +39544,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -39414,7 +39564,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -39434,7 +39584,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -39454,7 +39604,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -39494,7 +39644,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -39514,7 +39664,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -39534,7 +39684,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -39554,7 +39704,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -39614,7 +39764,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -39634,7 +39784,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -39654,7 +39804,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -39674,7 +39824,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -39714,7 +39864,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -39734,7 +39884,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -39754,7 +39904,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -39774,7 +39924,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -39814,7 +39964,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -39834,7 +39984,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -39854,7 +40004,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -39874,7 +40024,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -39954,7 +40104,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -39974,7 +40124,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -39994,7 +40144,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -40014,7 +40164,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -40064,7 +40214,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -40084,7 +40234,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -40104,7 +40254,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -40124,7 +40274,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -40184,7 +40334,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -40204,7 +40354,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -40224,7 +40374,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -40244,7 +40394,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -40284,7 +40434,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -40354,7 +40504,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -40374,7 +40524,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -40394,7 +40544,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -40414,7 +40564,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -40454,7 +40604,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -40474,7 +40624,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -40494,7 +40644,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -40514,7 +40664,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -40604,7 +40754,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -40624,7 +40774,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -40644,7 +40794,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -40664,7 +40814,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -40704,7 +40854,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -40724,7 +40874,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -40744,7 +40894,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -40764,7 +40914,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -40824,7 +40974,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -40844,7 +40994,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -40864,7 +41014,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -40884,7 +41034,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -41034,7 +41184,7 @@
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -41534,7 +41684,7 @@
     "Type": 0,
     "Name": "SlotRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -41564,7 +41714,7 @@
     "Type": 0,
     "Name": "SlotRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -41594,7 +41744,7 @@
     "Type": 0,
     "Name": "SlotRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -41624,7 +41774,7 @@
     "Type": 0,
     "Name": "SlotRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -41654,7 +41804,7 @@
     "Type": 0,
     "Name": "SlotRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -41684,7 +41834,7 @@
     "Type": 0,
     "Name": "SlotRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -41714,7 +41864,7 @@
     "Type": 0,
     "Name": "SlotRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -41744,7 +41894,7 @@
     "Type": 0,
     "Name": "SlotRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -41774,7 +41924,7 @@
     "Type": 0,
     "Name": "SlotRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -41804,7 +41954,7 @@
     "Type": 0,
     "Name": "SlotRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -41834,7 +41984,7 @@
     "Type": 0,
     "Name": "SlotRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -41864,7 +42014,7 @@
     "Type": 0,
     "Name": "SlotRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -41894,7 +42044,7 @@
     "Type": 0,
     "Name": "SlotRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -41924,7 +42074,7 @@
     "Type": 0,
     "Name": "SlotRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
@@ -41954,7 +42104,7 @@
     "Type": 0,
     "Name": "SlotRole",
     "Value": 7,
-    "Max": 237,
+    "Max": 238,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0
