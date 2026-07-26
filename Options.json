@@ -45043,7 +45043,7 @@
     "Id": 1000201,
     "Type": 1,
     "Name": "NoGameEnd",
-    "Value": 0,
+    "Value": 1,
     "Max": null,
     "Min": null,
     "Step": null,
