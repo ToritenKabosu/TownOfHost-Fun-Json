@@ -3632,7 +3632,7 @@
   {
     "Id": 3528,
     "Type": 4,
-    "Name": "AddGuardCount",
+    "Name": "GuardPower",
     "Value": 0,
     "Max": 10,
     "Min": 1,
@@ -8792,7 +8792,7 @@
   {
     "Id": 7443,
     "Type": 4,
-    "Name": "AddGuardCount",
+    "Name": "GuardPower",
     "Value": 0,
     "Max": 10,
     "Min": 1,
@@ -9382,7 +9382,7 @@
   {
     "Id": 7548,
     "Type": 4,
-    "Name": "AddGuardCount",
+    "Name": "GuardPower",
     "Value": 0,
     "Max": 10,
     "Min": 1,
@@ -11262,7 +11262,7 @@
   {
     "Id": 22863,
     "Type": 4,
-    "Name": "AddGuardCount",
+    "Name": "GuardPower",
     "Value": 0,
     "Max": 10,
     "Min": 1,
@@ -12512,7 +12512,7 @@
   {
     "Id": 8628,
     "Type": 4,
-    "Name": "AddGuardCount",
+    "Name": "GuardPower",
     "Value": 0,
     "Max": 10,
     "Min": 1,
@@ -17622,7 +17622,7 @@
   {
     "Id": 10543,
     "Type": 4,
-    "Name": "AddGuardCount",
+    "Name": "GuardPower",
     "Value": 0,
     "Max": 10,
     "Min": 1,
@@ -18613,7 +18613,7 @@
     "Id": 10004513,
     "Type": 1,
     "Name": "SympathizeSetIndividually",
-    "Value": 0,
+    "Value": 1,
     "Max": null,
     "Min": null,
     "Step": null,
@@ -21182,7 +21182,7 @@
   {
     "Id": 20743,
     "Type": 4,
-    "Name": "AddGuardCount",
+    "Name": "GuardPower",
     "Value": 0,
     "Max": 10,
     "Min": 1,
@@ -22002,7 +22002,7 @@
   {
     "Id": 12945,
     "Type": 4,
-    "Name": "AddGuardCount",
+    "Name": "GuardPower",
     "Value": 0,
     "Max": 10,
     "Min": 1,
@@ -23052,7 +23052,7 @@
   {
     "Id": 13123,
     "Type": 4,
-    "Name": "AddGuardCount",
+    "Name": "GuardPower",
     "Value": 0,
     "Max": 10,
     "Min": 1,
@@ -23712,7 +23712,7 @@
   {
     "Id": 21448,
     "Type": 4,
-    "Name": "AddGuardCount",
+    "Name": "GuardPower",
     "Value": 0,
     "Max": 10,
     "Min": 1,
@@ -24302,7 +24302,7 @@
   {
     "Id": 24748,
     "Type": 4,
-    "Name": "AddGuardCount",
+    "Name": "GuardPower",
     "Value": 0,
     "Max": 10,
     "Min": 1,
@@ -24902,7 +24902,7 @@
   {
     "Id": 13243,
     "Type": 4,
-    "Name": "AddGuardCount",
+    "Name": "GuardPower",
     "Value": 0,
     "Max": 10,
     "Min": 1,
@@ -25512,7 +25512,7 @@
   {
     "Id": 13340,
     "Type": 4,
-    "Name": "AddGuardCount",
+    "Name": "GuardPower",
     "Value": 0,
     "Max": 10,
     "Min": 1,
@@ -26092,7 +26092,7 @@
   {
     "Id": 13438,
     "Type": 4,
-    "Name": "AddGuardCount",
+    "Name": "GuardPower",
     "Value": 0,
     "Max": 10,
     "Min": 1,
@@ -26682,7 +26682,7 @@
   {
     "Id": 13539,
     "Type": 4,
-    "Name": "AddGuardCount",
+    "Name": "GuardPower",
     "Value": 0,
     "Max": 10,
     "Min": 1,
@@ -27252,7 +27252,7 @@
   {
     "Id": 13637,
     "Type": 4,
-    "Name": "AddGuardCount",
+    "Name": "GuardPower",
     "Value": 0,
     "Max": 10,
     "Min": 1,
@@ -27812,7 +27812,7 @@
   {
     "Id": 13736,
     "Type": 4,
-    "Name": "AddGuardCount",
+    "Name": "GuardPower",
     "Value": 0,
     "Max": 10,
     "Min": 1,
@@ -29852,7 +29852,7 @@
   {
     "Id": 14946,
     "Type": 4,
-    "Name": "AddGuardCount",
+    "Name": "GuardPower",
     "Value": 0,
     "Max": 10,
     "Min": 1,
@@ -31202,7 +31202,7 @@
   {
     "Id": 10007073,
     "Type": 4,
-    "Name": "AddGuardCount",
+    "Name": "GuardPower",
     "Value": 0,
     "Max": 10,
     "Min": 1,
@@ -32242,7 +32242,7 @@
   {
     "Id": 15543,
     "Type": 4,
-    "Name": "AddGuardCount",
+    "Name": "GuardPower",
     "Value": 0,
     "Max": 10,
     "Min": 1,
@@ -33102,7 +33102,7 @@
   {
     "Id": 10002239,
     "Type": 4,
-    "Name": "AddGuardCount",
+    "Name": "GuardPower",
     "Value": 0,
     "Max": 10,
     "Min": 1,
@@ -33622,7 +33622,7 @@
   {
     "Id": 102833,
     "Type": 4,
-    "Name": "AddGuardCount",
+    "Name": "GuardPower",
     "Value": 0,
     "Max": 10,
     "Min": 1,
