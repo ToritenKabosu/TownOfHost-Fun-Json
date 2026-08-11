@@ -1276,6 +1276,72 @@
     "ParentId": 16050
   },
   {
+    "Id": 10000900,
+    "Type": 4,
+    "Name": "TrickSpeaker",
+    "Value": 0,
+    "Max": 100,
+    "Min": 0,
+    "Step": 10,
+    "DefaultValue": 0,
+    "ParentId": -1
+  },
+  {
+    "Id": 10000901,
+    "Type": 4,
+    "Name": "Maximum",
+    "Value": 0,
+    "Max": 3,
+    "Min": 1,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 10000900
+  },
+  {
+    "Id": 10000910,
+    "Type": 4,
+    "Name": "OneGameMaximumSkillUsages",
+    "Value": 2,
+    "Max": 99,
+    "Min": 1,
+    "Step": 1,
+    "DefaultValue": 2,
+    "ParentId": 10000900
+  },
+  {
+    "Id": 10000911,
+    "Type": 4,
+    "Name": "OneMeetingMaximumSkillUsages",
+    "Value": 0,
+    "Max": 20,
+    "Min": 1,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 10000900
+  },
+  {
+    "Id": 10001400,
+    "Type": 4,
+    "Name": "Tester",
+    "Value": 0,
+    "Max": 100,
+    "Min": 0,
+    "Step": 10,
+    "DefaultValue": 0,
+    "ParentId": -1
+  },
+  {
+    "Id": 10001401,
+    "Type": 4,
+    "Name": "Maximum",
+    "Value": 0,
+    "Max": 3,
+    "Min": 1,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 10001400
+  },
+  {
     "Id": 10005300,
     "Type": 4,
     "Name": "SurviveKillerActivated",
@@ -6169,6 +6235,105 @@
     "Step": 0.1,
     "DefaultValue": 100,
     "ParentId": 10000119
+  },
+  {
+    "Id": 10003800,
+    "Type": 4,
+    "Name": "Firecracker",
+    "Value": 0,
+    "Max": 100,
+    "Min": 0,
+    "Step": 10,
+    "DefaultValue": 0,
+    "ParentId": -1
+  },
+  {
+    "Id": 10003801,
+    "Type": 4,
+    "Name": "Maximum",
+    "Value": 0,
+    "Max": 3,
+    "Min": 1,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 10003800
+  },
+  {
+    "Id": 10003810,
+    "Type": 3,
+    "Name": "FirecracCooldown",
+    "Value": 80,
+    "Max": 180,
+    "Min": 0,
+    "Step": 0.5,
+    "DefaultValue": 80,
+    "ParentId": 10003800
+  },
+  {
+    "Id": 10003811,
+    "Type": 3,
+    "Name": "FirecrackerKillCD",
+    "Value": 70,
+    "Max": 180,
+    "Min": 0,
+    "Step": 0.5,
+    "DefaultValue": 70,
+    "ParentId": 10003800
+  },
+  {
+    "Id": 10003816,
+    "Type": 3,
+    "Name": "FirecrackerRadius",
+    "Value": 20,
+    "Max": 5,
+    "Min": 0.5,
+    "Step": 0.1,
+    "DefaultValue": 20,
+    "ParentId": 10003800
+  },
+  {
+    "Id": 10003812,
+    "Type": 1,
+    "Name": "ImpostorsSurviveFirecracs",
+    "Value": 1,
+    "Max": null,
+    "Min": null,
+    "Step": null,
+    "DefaultValue": 1,
+    "ParentId": 10003800
+  },
+  {
+    "Id": 10003814,
+    "Type": 1,
+    "Name": "CanFirecrackMad",
+    "Value": 1,
+    "Max": null,
+    "Min": null,
+    "Step": null,
+    "DefaultValue": 1,
+    "ParentId": 10003800
+  },
+  {
+    "Id": 10003817,
+    "Type": 1,
+    "Name": "UnconditionalFirecrack",
+    "Value": 0,
+    "Max": null,
+    "Min": null,
+    "Step": null,
+    "DefaultValue": 0,
+    "ParentId": 10003800
+  },
+  {
+    "Id": 10003815,
+    "Type": 1,
+    "Name": "DeadBodyShowMtg",
+    "Value": 0,
+    "Max": null,
+    "Min": null,
+    "Step": null,
+    "DefaultValue": 0,
+    "ParentId": 10003800
   },
   {
     "Id": 10000400,
