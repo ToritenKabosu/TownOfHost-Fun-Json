@@ -40436,10 +40436,10 @@
     "ParentId": -1
   },
   {
-    "Id": 10007700,
+    "Id": 10004000,
     "Type": 4,
-    "Name": "Betrayal",
-    "Value": 0,
+    "Name": "BetrayalAddon",
+    "Value": 10,
     "Max": 100,
     "Min": 0,
     "Step": 10,
@@ -40447,29 +40447,29 @@
     "ParentId": -1
   },
   {
-    "Id": 10007701,
+    "Id": 10004001,
     "Type": 4,
     "Name": "Maximum",
-    "Value": 0,
+    "Value": 1,
     "Max": 3,
     "Min": 1,
     "Step": 1,
     "DefaultValue": 0,
-    "ParentId": 10007700
+    "ParentId": 10004000
   },
   {
-    "Id": 10007710,
+    "Id": 10004010,
     "Type": 4,
     "Name": "%roleTypes%Maximum",
-    "Value": 3,
+    "Value": 2,
     "Max": 3,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 3,
-    "ParentId": 10007700
+    "ParentId": 10004000
   },
   {
-    "Id": 10007711,
+    "Id": 10004011,
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
@@ -40477,7 +40477,7 @@
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0,
-    "ParentId": 10007710
+    "ParentId": 10004010
   },
   {
     "Id": 24900,
@@ -45928,7 +45928,7 @@
     "Id": 114000,
     "Type": 1,
     "Name": "SlotEnabled1",
-    "Value": 0,
+    "Value": 1,
     "Max": null,
     "Min": null,
     "Step": null,
@@ -49800,7 +49800,7 @@
     "Id": 115602,
     "Type": 3,
     "Name": "GameNumImpostors",
-    "Value": 2,
+    "Value": 3,
     "Max": 15,
     "Min": 0,
     "Step": 1,
