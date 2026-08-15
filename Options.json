@@ -15095,7 +15095,7 @@
     "Id": 8817,
     "Type": 1,
     "Name": "ShowNoRandomKillNotice",
-    "Value": 0,
+    "Value": 1,
     "Max": null,
     "Min": null,
     "Step": null,
