@@ -48392,7 +48392,7 @@
     "Id": 101300,
     "Type": 1,
     "Name": "RandomSpawn",
-    "Value": 0,
+    "Value": 1,
     "Max": null,
     "Min": null,
     "Step": null,
