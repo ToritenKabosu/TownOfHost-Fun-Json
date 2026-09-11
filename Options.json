@@ -50460,7 +50460,7 @@
     "Id": 115602,
     "Type": 3,
     "Name": "GameNumImpostors",
-    "Value": 2,
+    "Value": 1,
     "Max": 15,
     "Min": 0,
     "Step": 1,
