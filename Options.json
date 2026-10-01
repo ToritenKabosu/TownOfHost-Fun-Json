@@ -13618,6 +13618,17 @@
     "ParentId": 25100
   },
   {
+    "Id": 50211,
+    "Type": 4,
+    "Name": "OptionCount",
+    "Value": 0,
+    "Max": 15,
+    "Min": 1,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 25100
+  },
+  {
     "Id": 50212,
     "Type": 1,
     "Name": "MeetingSheriffCanKillMadMate",
@@ -46572,6 +46583,50 @@
     "Step": null,
     "DefaultValue": 0,
     "ParentId": 21500
+  },
+  {
+    "Id": 25200,
+    "Type": 4,
+    "Name": "SpiritGuide",
+    "Value": 0,
+    "Max": 100,
+    "Min": 0,
+    "Step": 10,
+    "DefaultValue": 0,
+    "ParentId": -1
+  },
+  {
+    "Id": 25201,
+    "Type": 4,
+    "Name": "Maximum",
+    "Value": 0,
+    "Max": 15,
+    "Min": 1,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 25200
+  },
+  {
+    "Id": 25202,
+    "Type": 3,
+    "Name": "Cooldown",
+    "Value": 55,
+    "Max": 180,
+    "Min": 0,
+    "Step": 0.5,
+    "DefaultValue": 55,
+    "ParentId": 25200
+  },
+  {
+    "Id": 25204,
+    "Type": 1,
+    "Name": "AssgingMadmate",
+    "Value": 0,
+    "Max": null,
+    "Min": null,
+    "Step": null,
+    "DefaultValue": 0,
+    "ParentId": 25200
   },
   {
     "Id": 114000,
