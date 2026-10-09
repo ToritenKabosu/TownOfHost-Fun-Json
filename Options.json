@@ -41470,116 +41470,6 @@
     "ParentId": 24900
   },
   {
-    "Id": 18100,
-    "Type": 4,
-    "Name": "Watching",
-    "Value": 10,
-    "Max": 100,
-    "Min": 0,
-    "Step": 10,
-    "DefaultValue": 0,
-    "ParentId": -1
-  },
-  {
-    "Id": 18101,
-    "Type": 4,
-    "Name": "Maximum",
-    "Value": 0,
-    "Max": 15,
-    "Min": 1,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 18100
-  },
-  {
-    "Id": 18110,
-    "Type": 4,
-    "Name": "%roleTypes%Maximum",
-    "Value": 15,
-    "Max": 15,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 15,
-    "ParentId": 18100
-  },
-  {
-    "Id": 18111,
-    "Type": 0,
-    "Name": "FixedRole",
-    "Value": 7,
-    "Max": 242,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 18110
-  },
-  {
-    "Id": 18112,
-    "Type": 4,
-    "Name": "%roleTypes%Maximum",
-    "Value": 3,
-    "Max": 3,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 3,
-    "ParentId": 18100
-  },
-  {
-    "Id": 18113,
-    "Type": 0,
-    "Name": "FixedRole",
-    "Value": 7,
-    "Max": 242,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 18112
-  },
-  {
-    "Id": 18114,
-    "Type": 4,
-    "Name": "%roleTypes%Maximum",
-    "Value": 15,
-    "Max": 15,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 15,
-    "ParentId": 18100
-  },
-  {
-    "Id": 18115,
-    "Type": 0,
-    "Name": "FixedRole",
-    "Value": 7,
-    "Max": 242,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 18114
-  },
-  {
-    "Id": 18116,
-    "Type": 4,
-    "Name": "%roleTypes%Maximum",
-    "Value": 15,
-    "Max": 15,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 15,
-    "ParentId": 18100
-  },
-  {
-    "Id": 18117,
-    "Type": 0,
-    "Name": "FixedRole",
-    "Value": 7,
-    "Max": 242,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 18116
-  },
-  {
     "Id": 16600,
     "Type": 4,
     "Name": "Autopsy",
@@ -41712,9 +41602,9 @@
     "ParentId": 16600
   },
   {
-    "Id": 17400,
+    "Id": 16700,
     "Type": 4,
-    "Name": "Opener",
+    "Name": "Connecting",
     "Value": 10,
     "Max": 100,
     "Min": 0,
@@ -41723,40 +41613,29 @@
     "ParentId": -1
   },
   {
-    "Id": 17401,
+    "Id": 16701,
     "Type": 4,
     "Name": "Maximum",
-    "Value": 0,
+    "Value": 13,
     "Max": 15,
-    "Min": 1,
+    "Min": 2,
     "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 17400
+    "DefaultValue": -1,
+    "ParentId": 16700
   },
   {
-    "Id": 17410,
+    "Id": 16710,
     "Type": 4,
-    "Name": "%roleTypes%Maximum",
+    "Name": "WoMaximum",
     "Value": 15,
     "Max": 15,
     "Min": 0,
     "Step": 1,
     "DefaultValue": 15,
-    "ParentId": 17400
+    "ParentId": 16700
   },
   {
-    "Id": 17411,
-    "Type": 0,
-    "Name": "FixedRole",
-    "Value": 7,
-    "Max": 242,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 17410
-  },
-  {
-    "Id": 17412,
+    "Id": 16711,
     "Type": 4,
     "Name": "%roleTypes%Maximum",
     "Value": 3,
@@ -41764,10 +41643,10 @@
     "Min": 0,
     "Step": 1,
     "DefaultValue": 3,
-    "ParentId": 17400
+    "ParentId": 16700
   },
   {
-    "Id": 17413,
+    "Id": 16712,
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
@@ -41775,10 +41654,10 @@
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0,
-    "ParentId": 17412
+    "ParentId": 16711
   },
   {
-    "Id": 17414,
+    "Id": 16713,
     "Type": 4,
     "Name": "%roleTypes%Maximum",
     "Value": 15,
@@ -41786,10 +41665,10 @@
     "Min": 0,
     "Step": 1,
     "DefaultValue": 15,
-    "ParentId": 17400
+    "ParentId": 16700
   },
   {
-    "Id": 17415,
+    "Id": 16714,
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
@@ -41797,10 +41676,32 @@
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0,
-    "ParentId": 17414
+    "ParentId": 16713
   },
   {
-    "Id": 17416,
+    "Id": 10003100,
+    "Type": 4,
+    "Name": "Delay",
+    "Value": 10,
+    "Max": 100,
+    "Min": 0,
+    "Step": 10,
+    "DefaultValue": 0,
+    "ParentId": -1
+  },
+  {
+    "Id": 10003101,
+    "Type": 4,
+    "Name": "Maximum",
+    "Value": 0,
+    "Max": 3,
+    "Min": 1,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 10003100
+  },
+  {
+    "Id": 10003110,
     "Type": 4,
     "Name": "%roleTypes%Maximum",
     "Value": 15,
@@ -41808,10 +41709,21 @@
     "Min": 0,
     "Step": 1,
     "DefaultValue": 15,
-    "ParentId": 17400
+    "ParentId": 10003100
   },
   {
-    "Id": 17417,
+    "Id": 10003111,
+    "Type": 4,
+    "Name": "%roleTypes%Maximum",
+    "Value": 3,
+    "Max": 3,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 3,
+    "ParentId": 10003100
+  },
+  {
+    "Id": 10003112,
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
@@ -41819,7 +41731,205 @@
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0,
-    "ParentId": 17416
+    "ParentId": 10003111
+  },
+  {
+    "Id": 10003113,
+    "Type": 4,
+    "Name": "%roleTypes%Maximum",
+    "Value": 15,
+    "Max": 15,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 15,
+    "ParentId": 10003100
+  },
+  {
+    "Id": 10003114,
+    "Type": 4,
+    "Name": "%roleTypes%Maximum",
+    "Value": 15,
+    "Max": 15,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 15,
+    "ParentId": 10003100
+  },
+  {
+    "Id": 10003115,
+    "Type": 0,
+    "Name": "FixedRole",
+    "Value": 7,
+    "Max": 242,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 10003114
+  },
+  {
+    "Id": 10003150,
+    "Type": 3,
+    "Name": "VampireKillDelay",
+    "Value": 40,
+    "Max": 1000,
+    "Min": 1,
+    "Step": 0.1,
+    "DefaultValue": 40,
+    "ParentId": 10003100
+  },
+  {
+    "Id": 10003151,
+    "Type": 1,
+    "Name": "ChauffeurChangeDeathReason",
+    "Value": 1,
+    "Max": null,
+    "Min": null,
+    "Step": null,
+    "DefaultValue": 1,
+    "ParentId": 10003100
+  },
+  {
+    "Id": 10001900,
+    "Type": 4,
+    "Name": "Digging",
+    "Value": 10,
+    "Max": 100,
+    "Min": 0,
+    "Step": 10,
+    "DefaultValue": 0,
+    "ParentId": -1
+  },
+  {
+    "Id": 10001901,
+    "Type": 4,
+    "Name": "Maximum",
+    "Value": 0,
+    "Max": 3,
+    "Min": 1,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 10001900
+  },
+  {
+    "Id": 10001910,
+    "Type": 4,
+    "Name": "%roleTypes%Maximum",
+    "Value": 3,
+    "Max": 3,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 3,
+    "ParentId": 10001900
+  },
+  {
+    "Id": 10001911,
+    "Type": 0,
+    "Name": "FixedRole",
+    "Value": 7,
+    "Max": 242,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 10001910
+  },
+  {
+    "Id": 10002000,
+    "Type": 4,
+    "Name": "Failure",
+    "Value": 0,
+    "Max": 100,
+    "Min": 0,
+    "Step": 10,
+    "DefaultValue": 0,
+    "ParentId": -1
+  },
+  {
+    "Id": 10002001,
+    "Type": 4,
+    "Name": "Maximum",
+    "Value": 0,
+    "Max": 3,
+    "Min": 1,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 10002000
+  },
+  {
+    "Id": 10002010,
+    "Type": 4,
+    "Name": "%roleTypes%Maximum",
+    "Value": 15,
+    "Max": 15,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 15,
+    "ParentId": 10002000
+  },
+  {
+    "Id": 10002011,
+    "Type": 4,
+    "Name": "%roleTypes%Maximum",
+    "Value": 3,
+    "Max": 3,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 3,
+    "ParentId": 10002000
+  },
+  {
+    "Id": 10002012,
+    "Type": 0,
+    "Name": "FixedRole",
+    "Value": 7,
+    "Max": 242,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 10002011
+  },
+  {
+    "Id": 10002013,
+    "Type": 4,
+    "Name": "%roleTypes%Maximum",
+    "Value": 15,
+    "Max": 15,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 15,
+    "ParentId": 10002000
+  },
+  {
+    "Id": 10002014,
+    "Type": 4,
+    "Name": "%roleTypes%Maximum",
+    "Value": 15,
+    "Max": 15,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 15,
+    "ParentId": 10002000
+  },
+  {
+    "Id": 10002015,
+    "Type": 0,
+    "Name": "FixedRole",
+    "Value": 7,
+    "Max": 242,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 10002014
+  },
+  {
+    "Id": 10002050,
+    "Type": 4,
+    "Name": "ProbabilityOfFailure",
+    "Value": 30,
+    "Max": 100,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 30,
+    "ParentId": 10002000
   },
   {
     "Id": 16800,
@@ -42306,9 +42416,9 @@
     "ParentId": 16900
   },
   {
-    "Id": 16700,
+    "Id": 17000,
     "Type": 4,
-    "Name": "Connecting",
+    "Name": "Lighting",
     "Value": 10,
     "Max": 100,
     "Min": 0,
@@ -42317,84 +42427,7 @@
     "ParentId": -1
   },
   {
-    "Id": 16701,
-    "Type": 4,
-    "Name": "Maximum",
-    "Value": 13,
-    "Max": 15,
-    "Min": 2,
-    "Step": 1,
-    "DefaultValue": -1,
-    "ParentId": 16700
-  },
-  {
-    "Id": 16710,
-    "Type": 4,
-    "Name": "WoMaximum",
-    "Value": 15,
-    "Max": 15,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 15,
-    "ParentId": 16700
-  },
-  {
-    "Id": 16711,
-    "Type": 4,
-    "Name": "%roleTypes%Maximum",
-    "Value": 3,
-    "Max": 3,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 3,
-    "ParentId": 16700
-  },
-  {
-    "Id": 16712,
-    "Type": 0,
-    "Name": "FixedRole",
-    "Value": 7,
-    "Max": 242,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 16711
-  },
-  {
-    "Id": 16713,
-    "Type": 4,
-    "Name": "%roleTypes%Maximum",
-    "Value": 15,
-    "Max": 15,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 15,
-    "ParentId": 16700
-  },
-  {
-    "Id": 16714,
-    "Type": 0,
-    "Name": "FixedRole",
-    "Value": 7,
-    "Max": 242,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 16713
-  },
-  {
-    "Id": 17700,
-    "Type": 4,
-    "Name": "Seeing",
-    "Value": 10,
-    "Max": 100,
-    "Min": 0,
-    "Step": 10,
-    "DefaultValue": 0,
-    "ParentId": -1
-  },
-  {
-    "Id": 17701,
+    "Id": 17001,
     "Type": 4,
     "Name": "Maximum",
     "Value": 0,
@@ -42402,10 +42435,10 @@
     "Min": 1,
     "Step": 1,
     "DefaultValue": 0,
-    "ParentId": 17700
+    "ParentId": 17000
   },
   {
-    "Id": 17710,
+    "Id": 17010,
     "Type": 4,
     "Name": "%roleTypes%Maximum",
     "Value": 15,
@@ -42413,10 +42446,10 @@
     "Min": 0,
     "Step": 1,
     "DefaultValue": 15,
-    "ParentId": 17700
+    "ParentId": 17000
   },
   {
-    "Id": 17711,
+    "Id": 17011,
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
@@ -42424,32 +42457,10 @@
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0,
-    "ParentId": 17710
+    "ParentId": 17010
   },
   {
-    "Id": 17712,
-    "Type": 4,
-    "Name": "%roleTypes%Maximum",
-    "Value": 3,
-    "Max": 3,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 3,
-    "ParentId": 17700
-  },
-  {
-    "Id": 17713,
-    "Type": 0,
-    "Name": "FixedRole",
-    "Value": 7,
-    "Max": 242,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 17712
-  },
-  {
-    "Id": 17714,
+    "Id": 17012,
     "Type": 4,
     "Name": "%roleTypes%Maximum",
     "Value": 15,
@@ -42457,10 +42468,10 @@
     "Min": 0,
     "Step": 1,
     "DefaultValue": 15,
-    "ParentId": 17700
+    "ParentId": 17000
   },
   {
-    "Id": 17715,
+    "Id": 17013,
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
@@ -42468,10 +42479,10 @@
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0,
-    "ParentId": 17714
+    "ParentId": 17012
   },
   {
-    "Id": 17716,
+    "Id": 17014,
     "Type": 4,
     "Name": "%roleTypes%Maximum",
     "Value": 15,
@@ -42479,10 +42490,10 @@
     "Min": 0,
     "Step": 1,
     "DefaultValue": 15,
-    "ParentId": 17700
+    "ParentId": 17000
   },
   {
-    "Id": 17717,
+    "Id": 17015,
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
@@ -42490,1151 +42501,7 @@
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0,
-    "ParentId": 17716
-  },
-  {
-    "Id": 17751,
-    "Type": 7,
-    "Name": "AddonOption",
-    "Value": 0,
-    "Max": null,
-    "Min": null,
-    "Step": null,
-    "DefaultValue": 0,
-    "ParentId": 17700
-  },
-  {
-    "Id": 17750,
-    "Type": 1,
-    "Name": "CanUseActiveComms",
-    "Value": 1,
-    "Max": null,
-    "Min": null,
-    "Step": null,
-    "DefaultValue": 1,
-    "ParentId": 17700
-  },
-  {
-    "Id": 10003200,
-    "Type": 4,
-    "Name": "Shine",
-    "Value": 10,
-    "Max": 100,
-    "Min": 0,
-    "Step": 10,
-    "DefaultValue": 0,
-    "ParentId": -1
-  },
-  {
-    "Id": 10003201,
-    "Type": 4,
-    "Name": "Maximum",
-    "Value": 0,
-    "Max": 15,
-    "Min": 1,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 10003200
-  },
-  {
-    "Id": 10003210,
-    "Type": 4,
-    "Name": "%roleTypes%Maximum",
-    "Value": 3,
-    "Max": 3,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 3,
-    "ParentId": 10003200
-  },
-  {
-    "Id": 10003211,
-    "Type": 0,
-    "Name": "FixedRole",
-    "Value": 7,
-    "Max": 242,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 10003210
-  },
-  {
-    "Id": 10003212,
-    "Type": 4,
-    "Name": "%roleTypes%Maximum",
-    "Value": 15,
-    "Max": 15,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 15,
-    "ParentId": 10003200
-  },
-  {
-    "Id": 10003213,
-    "Type": 0,
-    "Name": "FixedRole",
-    "Value": 7,
-    "Max": 242,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 10003212
-  },
-  {
-    "Id": 17800,
-    "Type": 4,
-    "Name": "Serial",
-    "Value": 10,
-    "Max": 100,
-    "Min": 0,
-    "Step": 10,
-    "DefaultValue": 0,
-    "ParentId": -1
-  },
-  {
-    "Id": 17801,
-    "Type": 4,
-    "Name": "Maximum",
-    "Value": 0,
-    "Max": 15,
-    "Min": 1,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 17800
-  },
-  {
-    "Id": 17810,
-    "Type": 4,
-    "Name": "%roleTypes%Maximum",
-    "Value": 15,
-    "Max": 15,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 15,
-    "ParentId": 17800
-  },
-  {
-    "Id": 17811,
-    "Type": 4,
-    "Name": "%roleTypes%Maximum",
-    "Value": 3,
-    "Max": 3,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 3,
-    "ParentId": 17800
-  },
-  {
-    "Id": 17812,
-    "Type": 0,
-    "Name": "FixedRole",
-    "Value": 7,
-    "Max": 242,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 17811
-  },
-  {
-    "Id": 17813,
-    "Type": 4,
-    "Name": "%roleTypes%Maximum",
-    "Value": 15,
-    "Max": 15,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 15,
-    "ParentId": 17800
-  },
-  {
-    "Id": 17814,
-    "Type": 4,
-    "Name": "%roleTypes%Maximum",
-    "Value": 15,
-    "Max": 15,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 15,
-    "ParentId": 17800
-  },
-  {
-    "Id": 17815,
-    "Type": 0,
-    "Name": "FixedRole",
-    "Value": 7,
-    "Max": 242,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 17814
-  },
-  {
-    "Id": 17851,
-    "Type": 7,
-    "Name": "AddonOption",
-    "Value": 0,
-    "Max": null,
-    "Min": null,
-    "Step": null,
-    "DefaultValue": 0,
-    "ParentId": 17800
-  },
-  {
-    "Id": 17850,
-    "Type": 3,
-    "Name": "KillCooldown",
-    "Value": 50,
-    "Max": 180,
-    "Min": 0,
-    "Step": 0.5,
-    "DefaultValue": 50,
-    "ParentId": 17800
-  },
-  {
-    "Id": 17900,
-    "Type": 4,
-    "Name": "Speeding",
-    "Value": 10,
-    "Max": 100,
-    "Min": 0,
-    "Step": 10,
-    "DefaultValue": 0,
-    "ParentId": -1
-  },
-  {
-    "Id": 17901,
-    "Type": 4,
-    "Name": "Maximum",
-    "Value": 0,
-    "Max": 15,
-    "Min": 1,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 17900
-  },
-  {
-    "Id": 17910,
-    "Type": 4,
-    "Name": "%roleTypes%Maximum",
-    "Value": 15,
-    "Max": 15,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 15,
-    "ParentId": 17900
-  },
-  {
-    "Id": 17911,
-    "Type": 0,
-    "Name": "FixedRole",
-    "Value": 7,
-    "Max": 242,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 17910
-  },
-  {
-    "Id": 17912,
-    "Type": 4,
-    "Name": "%roleTypes%Maximum",
-    "Value": 3,
-    "Max": 3,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 3,
-    "ParentId": 17900
-  },
-  {
-    "Id": 17913,
-    "Type": 0,
-    "Name": "FixedRole",
-    "Value": 7,
-    "Max": 242,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 17912
-  },
-  {
-    "Id": 17914,
-    "Type": 4,
-    "Name": "%roleTypes%Maximum",
-    "Value": 15,
-    "Max": 15,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 15,
-    "ParentId": 17900
-  },
-  {
-    "Id": 17915,
-    "Type": 0,
-    "Name": "FixedRole",
-    "Value": 7,
-    "Max": 242,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 17914
-  },
-  {
-    "Id": 17916,
-    "Type": 4,
-    "Name": "%roleTypes%Maximum",
-    "Value": 15,
-    "Max": 15,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 15,
-    "ParentId": 17900
-  },
-  {
-    "Id": 17917,
-    "Type": 0,
-    "Name": "FixedRole",
-    "Value": 7,
-    "Max": 242,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 17916
-  },
-  {
-    "Id": 17951,
-    "Type": 7,
-    "Name": "AddonOption",
-    "Value": 0,
-    "Max": null,
-    "Min": null,
-    "Step": null,
-    "DefaultValue": 0,
-    "ParentId": 16600
-  },
-  {
-    "Id": 17950,
-    "Type": 3,
-    "Name": "AddSpeed",
-    "Value": 1,
-    "Max": 10,
-    "Min": 0.25,
-    "Step": 0.25,
-    "DefaultValue": 1,
-    "ParentId": 17900
-  },
-  {
-    "Id": 10004400,
-    "Type": 4,
-    "Name": "TimeKeeping",
-    "Value": 0,
-    "Max": 100,
-    "Min": 0,
-    "Step": 10,
-    "DefaultValue": 0,
-    "ParentId": -1
-  },
-  {
-    "Id": 10004401,
-    "Type": 4,
-    "Name": "Maximum",
-    "Value": 0,
-    "Max": 15,
-    "Min": 1,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 10004400
-  },
-  {
-    "Id": 10004410,
-    "Type": 4,
-    "Name": "%roleTypes%Maximum",
-    "Value": 15,
-    "Max": 15,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 15,
-    "ParentId": 10004400
-  },
-  {
-    "Id": 10004411,
-    "Type": 0,
-    "Name": "FixedRole",
-    "Value": 7,
-    "Max": 242,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 10004410
-  },
-  {
-    "Id": 10004412,
-    "Type": 4,
-    "Name": "%roleTypes%Maximum",
-    "Value": 3,
-    "Max": 3,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 3,
-    "ParentId": 10004400
-  },
-  {
-    "Id": 10004413,
-    "Type": 0,
-    "Name": "FixedRole",
-    "Value": 7,
-    "Max": 242,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 10004412
-  },
-  {
-    "Id": 10004414,
-    "Type": 4,
-    "Name": "%roleTypes%Maximum",
-    "Value": 15,
-    "Max": 15,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 15,
-    "ParentId": 10004400
-  },
-  {
-    "Id": 10004415,
-    "Type": 0,
-    "Name": "FixedRole",
-    "Value": 7,
-    "Max": 242,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 10004414
-  },
-  {
-    "Id": 10004416,
-    "Type": 4,
-    "Name": "%roleTypes%Maximum",
-    "Value": 15,
-    "Max": 15,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 15,
-    "ParentId": 10004400
-  },
-  {
-    "Id": 10004417,
-    "Type": 0,
-    "Name": "FixedRole",
-    "Value": 7,
-    "Max": 242,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 10004416
-  },
-  {
-    "Id": 10001900,
-    "Type": 4,
-    "Name": "Digging",
-    "Value": 10,
-    "Max": 100,
-    "Min": 0,
-    "Step": 10,
-    "DefaultValue": 0,
-    "ParentId": -1
-  },
-  {
-    "Id": 10001901,
-    "Type": 4,
-    "Name": "Maximum",
-    "Value": 0,
-    "Max": 3,
-    "Min": 1,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 10001900
-  },
-  {
-    "Id": 10001910,
-    "Type": 4,
-    "Name": "%roleTypes%Maximum",
-    "Value": 3,
-    "Max": 3,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 3,
-    "ParentId": 10001900
-  },
-  {
-    "Id": 10001911,
-    "Type": 0,
-    "Name": "FixedRole",
-    "Value": 7,
-    "Max": 242,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 10001910
-  },
-  {
-    "Id": 10003100,
-    "Type": 4,
-    "Name": "Delay",
-    "Value": 10,
-    "Max": 100,
-    "Min": 0,
-    "Step": 10,
-    "DefaultValue": 0,
-    "ParentId": -1
-  },
-  {
-    "Id": 10003101,
-    "Type": 4,
-    "Name": "Maximum",
-    "Value": 0,
-    "Max": 3,
-    "Min": 1,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 10003100
-  },
-  {
-    "Id": 10003110,
-    "Type": 4,
-    "Name": "%roleTypes%Maximum",
-    "Value": 15,
-    "Max": 15,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 15,
-    "ParentId": 10003100
-  },
-  {
-    "Id": 10003111,
-    "Type": 4,
-    "Name": "%roleTypes%Maximum",
-    "Value": 3,
-    "Max": 3,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 3,
-    "ParentId": 10003100
-  },
-  {
-    "Id": 10003112,
-    "Type": 0,
-    "Name": "FixedRole",
-    "Value": 7,
-    "Max": 242,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 10003111
-  },
-  {
-    "Id": 10003113,
-    "Type": 4,
-    "Name": "%roleTypes%Maximum",
-    "Value": 15,
-    "Max": 15,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 15,
-    "ParentId": 10003100
-  },
-  {
-    "Id": 10003114,
-    "Type": 4,
-    "Name": "%roleTypes%Maximum",
-    "Value": 15,
-    "Max": 15,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 15,
-    "ParentId": 10003100
-  },
-  {
-    "Id": 10003115,
-    "Type": 0,
-    "Name": "FixedRole",
-    "Value": 7,
-    "Max": 242,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 10003114
-  },
-  {
-    "Id": 10003150,
-    "Type": 3,
-    "Name": "VampireKillDelay",
-    "Value": 40,
-    "Max": 1000,
-    "Min": 1,
-    "Step": 0.1,
-    "DefaultValue": 40,
-    "ParentId": 10003100
-  },
-  {
-    "Id": 10003151,
-    "Type": 1,
-    "Name": "ChauffeurChangeDeathReason",
-    "Value": 1,
-    "Max": null,
-    "Min": null,
-    "Step": null,
-    "DefaultValue": 1,
-    "ParentId": 10003100
-  },
-  {
-    "Id": 10001600,
-    "Type": 4,
-    "Name": "AddonToilet",
-    "Value": 10,
-    "Max": 100,
-    "Min": 0,
-    "Step": 10,
-    "DefaultValue": 0,
-    "ParentId": -1
-  },
-  {
-    "Id": 10001601,
-    "Type": 4,
-    "Name": "Maximum",
-    "Value": 0,
-    "Max": 15,
-    "Min": 1,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 10001600
-  },
-  {
-    "Id": 10001610,
-    "Type": 4,
-    "Name": "%roleTypes%Maximum",
-    "Value": 15,
-    "Max": 15,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 15,
-    "ParentId": 10001600
-  },
-  {
-    "Id": 10001611,
-    "Type": 0,
-    "Name": "FixedRole",
-    "Value": 7,
-    "Max": 242,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 10001610
-  },
-  {
-    "Id": 10001612,
-    "Type": 4,
-    "Name": "%roleTypes%Maximum",
-    "Value": 3,
-    "Max": 3,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 3,
-    "ParentId": 10001600
-  },
-  {
-    "Id": 10001613,
-    "Type": 0,
-    "Name": "FixedRole",
-    "Value": 7,
-    "Max": 242,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 10001612
-  },
-  {
-    "Id": 10001614,
-    "Type": 4,
-    "Name": "%roleTypes%Maximum",
-    "Value": 15,
-    "Max": 15,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 15,
-    "ParentId": 10001600
-  },
-  {
-    "Id": 10001615,
-    "Type": 0,
-    "Name": "FixedRole",
-    "Value": 7,
-    "Max": 242,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 10001614
-  },
-  {
-    "Id": 10001616,
-    "Type": 4,
-    "Name": "%roleTypes%Maximum",
-    "Value": 15,
-    "Max": 15,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 15,
-    "ParentId": 10001600
-  },
-  {
-    "Id": 10001617,
-    "Type": 0,
-    "Name": "FixedRole",
-    "Value": 7,
-    "Max": 242,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 10001616
-  },
-  {
-    "Id": 10001650,
-    "Type": 1,
-    "Name": "CanseeComms",
-    "Value": 1,
-    "Max": null,
-    "Min": null,
-    "Step": null,
-    "DefaultValue": 1,
-    "ParentId": 10001600
-  },
-  {
-    "Id": 10002800,
-    "Type": 4,
-    "Name": "NonCounting",
-    "Value": 10,
-    "Max": 100,
-    "Min": 0,
-    "Step": 10,
-    "DefaultValue": 0,
-    "ParentId": -1
-  },
-  {
-    "Id": 10002801,
-    "Type": 4,
-    "Name": "Maximum",
-    "Value": 0,
-    "Max": 15,
-    "Min": 1,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 10002800
-  },
-  {
-    "Id": 10002810,
-    "Type": 4,
-    "Name": "%roleTypes%Maximum",
-    "Value": 15,
-    "Max": 15,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 15,
-    "ParentId": 10002800
-  },
-  {
-    "Id": 10002811,
-    "Type": 0,
-    "Name": "FixedRole",
-    "Value": 7,
-    "Max": 242,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 10002810
-  },
-  {
-    "Id": 10002812,
-    "Type": 4,
-    "Name": "%roleTypes%Maximum",
-    "Value": 3,
-    "Max": 3,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 3,
-    "ParentId": 10002800
-  },
-  {
-    "Id": 10002813,
-    "Type": 0,
-    "Name": "FixedRole",
-    "Value": 7,
-    "Max": 242,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 10002812
-  },
-  {
-    "Id": 10002814,
-    "Type": 4,
-    "Name": "%roleTypes%Maximum",
-    "Value": 15,
-    "Max": 15,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 15,
-    "ParentId": 10002800
-  },
-  {
-    "Id": 10002815,
-    "Type": 0,
-    "Name": "FixedRole",
-    "Value": 7,
-    "Max": 242,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 10002814
-  },
-  {
-    "Id": 10002816,
-    "Type": 4,
-    "Name": "%roleTypes%Maximum",
-    "Value": 15,
-    "Max": 15,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 15,
-    "ParentId": 10002800
-  },
-  {
-    "Id": 10002817,
-    "Type": 0,
-    "Name": "FixedRole",
-    "Value": 7,
-    "Max": 242,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 10002816
-  },
-  {
-    "Id": 24600,
-    "Type": 4,
-    "Name": "Powerful",
-    "Value": 10,
-    "Max": 100,
-    "Min": 0,
-    "Step": 10,
-    "DefaultValue": 0,
-    "ParentId": -1
-  },
-  {
-    "Id": 24601,
-    "Type": 4,
-    "Name": "Maximum",
-    "Value": 0,
-    "Max": 15,
-    "Min": 1,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 24600
-  },
-  {
-    "Id": 24610,
-    "Type": 4,
-    "Name": "%roleTypes%Maximum",
-    "Value": 15,
-    "Max": 15,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 15,
-    "ParentId": 24600
-  },
-  {
-    "Id": 24611,
-    "Type": 4,
-    "Name": "%roleTypes%Maximum",
-    "Value": 3,
-    "Max": 3,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 3,
-    "ParentId": 24600
-  },
-  {
-    "Id": 24612,
-    "Type": 0,
-    "Name": "FixedRole",
-    "Value": 7,
-    "Max": 242,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 24611
-  },
-  {
-    "Id": 24613,
-    "Type": 4,
-    "Name": "%roleTypes%Maximum",
-    "Value": 15,
-    "Max": 15,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 15,
-    "ParentId": 24600
-  },
-  {
-    "Id": 24614,
-    "Type": 4,
-    "Name": "%roleTypes%Maximum",
-    "Value": 15,
-    "Max": 15,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 15,
-    "ParentId": 24600
-  },
-  {
-    "Id": 24615,
-    "Type": 0,
-    "Name": "FixedRole",
-    "Value": 7,
-    "Max": 242,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 24614
-  },
-  {
-    "Id": 10002000,
-    "Type": 4,
-    "Name": "Failure",
-    "Value": 0,
-    "Max": 100,
-    "Min": 0,
-    "Step": 10,
-    "DefaultValue": 0,
-    "ParentId": -1
-  },
-  {
-    "Id": 10002001,
-    "Type": 4,
-    "Name": "Maximum",
-    "Value": 0,
-    "Max": 3,
-    "Min": 1,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 10002000
-  },
-  {
-    "Id": 10002010,
-    "Type": 4,
-    "Name": "%roleTypes%Maximum",
-    "Value": 15,
-    "Max": 15,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 15,
-    "ParentId": 10002000
-  },
-  {
-    "Id": 10002011,
-    "Type": 4,
-    "Name": "%roleTypes%Maximum",
-    "Value": 3,
-    "Max": 3,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 3,
-    "ParentId": 10002000
-  },
-  {
-    "Id": 10002012,
-    "Type": 0,
-    "Name": "FixedRole",
-    "Value": 7,
-    "Max": 242,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 10002011
-  },
-  {
-    "Id": 10002013,
-    "Type": 4,
-    "Name": "%roleTypes%Maximum",
-    "Value": 15,
-    "Max": 15,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 15,
-    "ParentId": 10002000
-  },
-  {
-    "Id": 10002014,
-    "Type": 4,
-    "Name": "%roleTypes%Maximum",
-    "Value": 15,
-    "Max": 15,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 15,
-    "ParentId": 10002000
-  },
-  {
-    "Id": 10002015,
-    "Type": 0,
-    "Name": "FixedRole",
-    "Value": 7,
-    "Max": 242,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 10002014
-  },
-  {
-    "Id": 10002050,
-    "Type": 4,
-    "Name": "ProbabilityOfFailure",
-    "Value": 30,
-    "Max": 100,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 30,
-    "ParentId": 10002000
-  },
-  {
-    "Id": 17500,
-    "Type": 4,
-    "Name": "PlusVote",
-    "Value": 10,
-    "Max": 100,
-    "Min": 0,
-    "Step": 10,
-    "DefaultValue": 0,
-    "ParentId": -1
-  },
-  {
-    "Id": 17501,
-    "Type": 4,
-    "Name": "Maximum",
-    "Value": 0,
-    "Max": 15,
-    "Min": 1,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 17500
-  },
-  {
-    "Id": 17510,
-    "Type": 4,
-    "Name": "%roleTypes%Maximum",
-    "Value": 15,
-    "Max": 15,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 15,
-    "ParentId": 17500
-  },
-  {
-    "Id": 17511,
-    "Type": 0,
-    "Name": "FixedRole",
-    "Value": 7,
-    "Max": 242,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 17510
-  },
-  {
-    "Id": 17512,
-    "Type": 4,
-    "Name": "%roleTypes%Maximum",
-    "Value": 3,
-    "Max": 3,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 3,
-    "ParentId": 17500
-  },
-  {
-    "Id": 17513,
-    "Type": 0,
-    "Name": "FixedRole",
-    "Value": 7,
-    "Max": 242,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 17512
-  },
-  {
-    "Id": 17514,
-    "Type": 4,
-    "Name": "%roleTypes%Maximum",
-    "Value": 15,
-    "Max": 15,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 15,
-    "ParentId": 17500
-  },
-  {
-    "Id": 17515,
-    "Type": 0,
-    "Name": "FixedRole",
-    "Value": 7,
-    "Max": 242,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 17514
-  },
-  {
-    "Id": 17516,
-    "Type": 4,
-    "Name": "%roleTypes%Maximum",
-    "Value": 15,
-    "Max": 15,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 15,
-    "ParentId": 17500
-  },
-  {
-    "Id": 17517,
-    "Type": 0,
-    "Name": "FixedRole",
-    "Value": 7,
-    "Max": 242,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 17516
-  },
-  {
-    "Id": 17551,
-    "Type": 7,
-    "Name": "AddonOption",
-    "Value": 0,
-    "Max": null,
-    "Min": null,
-    "Step": null,
-    "DefaultValue": 0,
-    "ParentId": 17500
-  },
-  {
-    "Id": 17550,
-    "Type": 4,
-    "Name": "MayorAdditionalVote",
-    "Value": 0,
-    "Max": 99,
-    "Min": 1,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 17500
+    "ParentId": 17014
   },
   {
     "Id": 17100,
@@ -44000,9 +42867,9 @@
     "ParentId": 17314
   },
   {
-    "Id": 17000,
+    "Id": 10002800,
     "Type": 4,
-    "Name": "Lighting",
+    "Name": "NonCounting",
     "Value": 10,
     "Max": 100,
     "Min": 0,
@@ -44011,7 +42878,7 @@
     "ParentId": -1
   },
   {
-    "Id": 17001,
+    "Id": 10002801,
     "Type": 4,
     "Name": "Maximum",
     "Value": 0,
@@ -44019,10 +42886,10 @@
     "Min": 1,
     "Step": 1,
     "DefaultValue": 0,
-    "ParentId": 17000
+    "ParentId": 10002800
   },
   {
-    "Id": 17010,
+    "Id": 10002810,
     "Type": 4,
     "Name": "%roleTypes%Maximum",
     "Value": 15,
@@ -44030,10 +42897,10 @@
     "Min": 0,
     "Step": 1,
     "DefaultValue": 15,
-    "ParentId": 17000
+    "ParentId": 10002800
   },
   {
-    "Id": 17011,
+    "Id": 10002811,
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
@@ -44041,10 +42908,32 @@
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0,
-    "ParentId": 17010
+    "ParentId": 10002810
   },
   {
-    "Id": 17012,
+    "Id": 10002812,
+    "Type": 4,
+    "Name": "%roleTypes%Maximum",
+    "Value": 3,
+    "Max": 3,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 3,
+    "ParentId": 10002800
+  },
+  {
+    "Id": 10002813,
+    "Type": 0,
+    "Name": "FixedRole",
+    "Value": 7,
+    "Max": 242,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 10002812
+  },
+  {
+    "Id": 10002814,
     "Type": 4,
     "Name": "%roleTypes%Maximum",
     "Value": 15,
@@ -44052,10 +42941,10 @@
     "Min": 0,
     "Step": 1,
     "DefaultValue": 15,
-    "ParentId": 17000
+    "ParentId": 10002800
   },
   {
-    "Id": 17013,
+    "Id": 10002815,
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
@@ -44063,10 +42952,10 @@
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0,
-    "ParentId": 17012
+    "ParentId": 10002814
   },
   {
-    "Id": 17014,
+    "Id": 10002816,
     "Type": 4,
     "Name": "%roleTypes%Maximum",
     "Value": 15,
@@ -44074,10 +42963,10 @@
     "Min": 0,
     "Step": 1,
     "DefaultValue": 15,
-    "ParentId": 17000
+    "ParentId": 10002800
   },
   {
-    "Id": 17015,
+    "Id": 10002817,
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
@@ -44085,7 +42974,337 @@
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0,
-    "ParentId": 17014
+    "ParentId": 10002816
+  },
+  {
+    "Id": 17400,
+    "Type": 4,
+    "Name": "Opener",
+    "Value": 10,
+    "Max": 100,
+    "Min": 0,
+    "Step": 10,
+    "DefaultValue": 0,
+    "ParentId": -1
+  },
+  {
+    "Id": 17401,
+    "Type": 4,
+    "Name": "Maximum",
+    "Value": 0,
+    "Max": 15,
+    "Min": 1,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 17400
+  },
+  {
+    "Id": 17410,
+    "Type": 4,
+    "Name": "%roleTypes%Maximum",
+    "Value": 15,
+    "Max": 15,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 15,
+    "ParentId": 17400
+  },
+  {
+    "Id": 17411,
+    "Type": 0,
+    "Name": "FixedRole",
+    "Value": 7,
+    "Max": 242,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 17410
+  },
+  {
+    "Id": 17412,
+    "Type": 4,
+    "Name": "%roleTypes%Maximum",
+    "Value": 3,
+    "Max": 3,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 3,
+    "ParentId": 17400
+  },
+  {
+    "Id": 17413,
+    "Type": 0,
+    "Name": "FixedRole",
+    "Value": 7,
+    "Max": 242,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 17412
+  },
+  {
+    "Id": 17414,
+    "Type": 4,
+    "Name": "%roleTypes%Maximum",
+    "Value": 15,
+    "Max": 15,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 15,
+    "ParentId": 17400
+  },
+  {
+    "Id": 17415,
+    "Type": 0,
+    "Name": "FixedRole",
+    "Value": 7,
+    "Max": 242,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 17414
+  },
+  {
+    "Id": 17416,
+    "Type": 4,
+    "Name": "%roleTypes%Maximum",
+    "Value": 15,
+    "Max": 15,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 15,
+    "ParentId": 17400
+  },
+  {
+    "Id": 17417,
+    "Type": 0,
+    "Name": "FixedRole",
+    "Value": 7,
+    "Max": 242,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 17416
+  },
+  {
+    "Id": 17500,
+    "Type": 4,
+    "Name": "PlusVote",
+    "Value": 10,
+    "Max": 100,
+    "Min": 0,
+    "Step": 10,
+    "DefaultValue": 0,
+    "ParentId": -1
+  },
+  {
+    "Id": 17501,
+    "Type": 4,
+    "Name": "Maximum",
+    "Value": 0,
+    "Max": 15,
+    "Min": 1,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 17500
+  },
+  {
+    "Id": 17510,
+    "Type": 4,
+    "Name": "%roleTypes%Maximum",
+    "Value": 15,
+    "Max": 15,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 15,
+    "ParentId": 17500
+  },
+  {
+    "Id": 17511,
+    "Type": 0,
+    "Name": "FixedRole",
+    "Value": 7,
+    "Max": 242,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 17510
+  },
+  {
+    "Id": 17512,
+    "Type": 4,
+    "Name": "%roleTypes%Maximum",
+    "Value": 3,
+    "Max": 3,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 3,
+    "ParentId": 17500
+  },
+  {
+    "Id": 17513,
+    "Type": 0,
+    "Name": "FixedRole",
+    "Value": 7,
+    "Max": 242,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 17512
+  },
+  {
+    "Id": 17514,
+    "Type": 4,
+    "Name": "%roleTypes%Maximum",
+    "Value": 15,
+    "Max": 15,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 15,
+    "ParentId": 17500
+  },
+  {
+    "Id": 17515,
+    "Type": 0,
+    "Name": "FixedRole",
+    "Value": 7,
+    "Max": 242,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 17514
+  },
+  {
+    "Id": 17516,
+    "Type": 4,
+    "Name": "%roleTypes%Maximum",
+    "Value": 15,
+    "Max": 15,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 15,
+    "ParentId": 17500
+  },
+  {
+    "Id": 17517,
+    "Type": 0,
+    "Name": "FixedRole",
+    "Value": 7,
+    "Max": 242,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 17516
+  },
+  {
+    "Id": 17551,
+    "Type": 7,
+    "Name": "AddonOption",
+    "Value": 0,
+    "Max": null,
+    "Min": null,
+    "Step": null,
+    "DefaultValue": 0,
+    "ParentId": 17500
+  },
+  {
+    "Id": 17550,
+    "Type": 4,
+    "Name": "MayorAdditionalVote",
+    "Value": 0,
+    "Max": 99,
+    "Min": 1,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 17500
+  },
+  {
+    "Id": 24600,
+    "Type": 4,
+    "Name": "Powerful",
+    "Value": 10,
+    "Max": 100,
+    "Min": 0,
+    "Step": 10,
+    "DefaultValue": 0,
+    "ParentId": -1
+  },
+  {
+    "Id": 24601,
+    "Type": 4,
+    "Name": "Maximum",
+    "Value": 0,
+    "Max": 15,
+    "Min": 1,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 24600
+  },
+  {
+    "Id": 24610,
+    "Type": 4,
+    "Name": "%roleTypes%Maximum",
+    "Value": 15,
+    "Max": 15,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 15,
+    "ParentId": 24600
+  },
+  {
+    "Id": 24611,
+    "Type": 4,
+    "Name": "%roleTypes%Maximum",
+    "Value": 3,
+    "Max": 3,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 3,
+    "ParentId": 24600
+  },
+  {
+    "Id": 24612,
+    "Type": 0,
+    "Name": "FixedRole",
+    "Value": 7,
+    "Max": 242,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 24611
+  },
+  {
+    "Id": 24613,
+    "Type": 4,
+    "Name": "%roleTypes%Maximum",
+    "Value": 15,
+    "Max": 15,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 15,
+    "ParentId": 24600
+  },
+  {
+    "Id": 24614,
+    "Type": 4,
+    "Name": "%roleTypes%Maximum",
+    "Value": 15,
+    "Max": 15,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 15,
+    "ParentId": 24600
+  },
+  {
+    "Id": 24615,
+    "Type": 0,
+    "Name": "FixedRole",
+    "Value": 7,
+    "Max": 242,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 24614
   },
   {
     "Id": 17600,
@@ -44253,6 +43472,787 @@
     "ParentId": 17600
   },
   {
+    "Id": 17700,
+    "Type": 4,
+    "Name": "Seeing",
+    "Value": 10,
+    "Max": 100,
+    "Min": 0,
+    "Step": 10,
+    "DefaultValue": 0,
+    "ParentId": -1
+  },
+  {
+    "Id": 17701,
+    "Type": 4,
+    "Name": "Maximum",
+    "Value": 0,
+    "Max": 15,
+    "Min": 1,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 17700
+  },
+  {
+    "Id": 17710,
+    "Type": 4,
+    "Name": "%roleTypes%Maximum",
+    "Value": 15,
+    "Max": 15,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 15,
+    "ParentId": 17700
+  },
+  {
+    "Id": 17711,
+    "Type": 0,
+    "Name": "FixedRole",
+    "Value": 7,
+    "Max": 242,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 17710
+  },
+  {
+    "Id": 17712,
+    "Type": 4,
+    "Name": "%roleTypes%Maximum",
+    "Value": 3,
+    "Max": 3,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 3,
+    "ParentId": 17700
+  },
+  {
+    "Id": 17713,
+    "Type": 0,
+    "Name": "FixedRole",
+    "Value": 7,
+    "Max": 242,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 17712
+  },
+  {
+    "Id": 17714,
+    "Type": 4,
+    "Name": "%roleTypes%Maximum",
+    "Value": 15,
+    "Max": 15,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 15,
+    "ParentId": 17700
+  },
+  {
+    "Id": 17715,
+    "Type": 0,
+    "Name": "FixedRole",
+    "Value": 7,
+    "Max": 242,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 17714
+  },
+  {
+    "Id": 17716,
+    "Type": 4,
+    "Name": "%roleTypes%Maximum",
+    "Value": 15,
+    "Max": 15,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 15,
+    "ParentId": 17700
+  },
+  {
+    "Id": 17717,
+    "Type": 0,
+    "Name": "FixedRole",
+    "Value": 7,
+    "Max": 242,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 17716
+  },
+  {
+    "Id": 17751,
+    "Type": 7,
+    "Name": "AddonOption",
+    "Value": 0,
+    "Max": null,
+    "Min": null,
+    "Step": null,
+    "DefaultValue": 0,
+    "ParentId": 17700
+  },
+  {
+    "Id": 17750,
+    "Type": 1,
+    "Name": "CanUseActiveComms",
+    "Value": 1,
+    "Max": null,
+    "Min": null,
+    "Step": null,
+    "DefaultValue": 1,
+    "ParentId": 17700
+  },
+  {
+    "Id": 17800,
+    "Type": 4,
+    "Name": "Serial",
+    "Value": 10,
+    "Max": 100,
+    "Min": 0,
+    "Step": 10,
+    "DefaultValue": 0,
+    "ParentId": -1
+  },
+  {
+    "Id": 17801,
+    "Type": 4,
+    "Name": "Maximum",
+    "Value": 0,
+    "Max": 15,
+    "Min": 1,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 17800
+  },
+  {
+    "Id": 17810,
+    "Type": 4,
+    "Name": "%roleTypes%Maximum",
+    "Value": 15,
+    "Max": 15,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 15,
+    "ParentId": 17800
+  },
+  {
+    "Id": 17811,
+    "Type": 4,
+    "Name": "%roleTypes%Maximum",
+    "Value": 3,
+    "Max": 3,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 3,
+    "ParentId": 17800
+  },
+  {
+    "Id": 17812,
+    "Type": 0,
+    "Name": "FixedRole",
+    "Value": 7,
+    "Max": 242,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 17811
+  },
+  {
+    "Id": 17813,
+    "Type": 4,
+    "Name": "%roleTypes%Maximum",
+    "Value": 15,
+    "Max": 15,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 15,
+    "ParentId": 17800
+  },
+  {
+    "Id": 17814,
+    "Type": 4,
+    "Name": "%roleTypes%Maximum",
+    "Value": 15,
+    "Max": 15,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 15,
+    "ParentId": 17800
+  },
+  {
+    "Id": 17815,
+    "Type": 0,
+    "Name": "FixedRole",
+    "Value": 7,
+    "Max": 242,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 17814
+  },
+  {
+    "Id": 17851,
+    "Type": 7,
+    "Name": "AddonOption",
+    "Value": 0,
+    "Max": null,
+    "Min": null,
+    "Step": null,
+    "DefaultValue": 0,
+    "ParentId": 17800
+  },
+  {
+    "Id": 17850,
+    "Type": 3,
+    "Name": "KillCooldown",
+    "Value": 50,
+    "Max": 180,
+    "Min": 0,
+    "Step": 0.5,
+    "DefaultValue": 50,
+    "ParentId": 17800
+  },
+  {
+    "Id": 10003200,
+    "Type": 4,
+    "Name": "Shine",
+    "Value": 10,
+    "Max": 100,
+    "Min": 0,
+    "Step": 10,
+    "DefaultValue": 0,
+    "ParentId": -1
+  },
+  {
+    "Id": 10003201,
+    "Type": 4,
+    "Name": "Maximum",
+    "Value": 0,
+    "Max": 15,
+    "Min": 1,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 10003200
+  },
+  {
+    "Id": 10003210,
+    "Type": 4,
+    "Name": "%roleTypes%Maximum",
+    "Value": 3,
+    "Max": 3,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 3,
+    "ParentId": 10003200
+  },
+  {
+    "Id": 10003211,
+    "Type": 0,
+    "Name": "FixedRole",
+    "Value": 7,
+    "Max": 242,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 10003210
+  },
+  {
+    "Id": 10003212,
+    "Type": 4,
+    "Name": "%roleTypes%Maximum",
+    "Value": 15,
+    "Max": 15,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 15,
+    "ParentId": 10003200
+  },
+  {
+    "Id": 10003213,
+    "Type": 0,
+    "Name": "FixedRole",
+    "Value": 7,
+    "Max": 242,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 10003212
+  },
+  {
+    "Id": 17900,
+    "Type": 4,
+    "Name": "Speeding",
+    "Value": 10,
+    "Max": 100,
+    "Min": 0,
+    "Step": 10,
+    "DefaultValue": 0,
+    "ParentId": -1
+  },
+  {
+    "Id": 17901,
+    "Type": 4,
+    "Name": "Maximum",
+    "Value": 0,
+    "Max": 15,
+    "Min": 1,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 17900
+  },
+  {
+    "Id": 17910,
+    "Type": 4,
+    "Name": "%roleTypes%Maximum",
+    "Value": 15,
+    "Max": 15,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 15,
+    "ParentId": 17900
+  },
+  {
+    "Id": 17911,
+    "Type": 0,
+    "Name": "FixedRole",
+    "Value": 7,
+    "Max": 242,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 17910
+  },
+  {
+    "Id": 17912,
+    "Type": 4,
+    "Name": "%roleTypes%Maximum",
+    "Value": 3,
+    "Max": 3,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 3,
+    "ParentId": 17900
+  },
+  {
+    "Id": 17913,
+    "Type": 0,
+    "Name": "FixedRole",
+    "Value": 7,
+    "Max": 242,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 17912
+  },
+  {
+    "Id": 17914,
+    "Type": 4,
+    "Name": "%roleTypes%Maximum",
+    "Value": 15,
+    "Max": 15,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 15,
+    "ParentId": 17900
+  },
+  {
+    "Id": 17915,
+    "Type": 0,
+    "Name": "FixedRole",
+    "Value": 7,
+    "Max": 242,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 17914
+  },
+  {
+    "Id": 17916,
+    "Type": 4,
+    "Name": "%roleTypes%Maximum",
+    "Value": 15,
+    "Max": 15,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 15,
+    "ParentId": 17900
+  },
+  {
+    "Id": 17917,
+    "Type": 0,
+    "Name": "FixedRole",
+    "Value": 7,
+    "Max": 242,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 17916
+  },
+  {
+    "Id": 17951,
+    "Type": 7,
+    "Name": "AddonOption",
+    "Value": 0,
+    "Max": null,
+    "Min": null,
+    "Step": null,
+    "DefaultValue": 0,
+    "ParentId": 16600
+  },
+  {
+    "Id": 17950,
+    "Type": 3,
+    "Name": "AddSpeed",
+    "Value": 1,
+    "Max": 10,
+    "Min": 0.25,
+    "Step": 0.25,
+    "DefaultValue": 1,
+    "ParentId": 17900
+  },
+  {
+    "Id": 10004400,
+    "Type": 4,
+    "Name": "TimeKeeping",
+    "Value": 0,
+    "Max": 100,
+    "Min": 0,
+    "Step": 10,
+    "DefaultValue": 0,
+    "ParentId": -1
+  },
+  {
+    "Id": 10004401,
+    "Type": 4,
+    "Name": "Maximum",
+    "Value": 0,
+    "Max": 15,
+    "Min": 1,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 10004400
+  },
+  {
+    "Id": 10004410,
+    "Type": 4,
+    "Name": "%roleTypes%Maximum",
+    "Value": 15,
+    "Max": 15,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 15,
+    "ParentId": 10004400
+  },
+  {
+    "Id": 10004411,
+    "Type": 0,
+    "Name": "FixedRole",
+    "Value": 7,
+    "Max": 242,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 10004410
+  },
+  {
+    "Id": 10004412,
+    "Type": 4,
+    "Name": "%roleTypes%Maximum",
+    "Value": 3,
+    "Max": 3,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 3,
+    "ParentId": 10004400
+  },
+  {
+    "Id": 10004413,
+    "Type": 0,
+    "Name": "FixedRole",
+    "Value": 7,
+    "Max": 242,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 10004412
+  },
+  {
+    "Id": 10004414,
+    "Type": 4,
+    "Name": "%roleTypes%Maximum",
+    "Value": 15,
+    "Max": 15,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 15,
+    "ParentId": 10004400
+  },
+  {
+    "Id": 10004415,
+    "Type": 0,
+    "Name": "FixedRole",
+    "Value": 7,
+    "Max": 242,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 10004414
+  },
+  {
+    "Id": 10004416,
+    "Type": 4,
+    "Name": "%roleTypes%Maximum",
+    "Value": 15,
+    "Max": 15,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 15,
+    "ParentId": 10004400
+  },
+  {
+    "Id": 10004417,
+    "Type": 0,
+    "Name": "FixedRole",
+    "Value": 7,
+    "Max": 242,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 10004416
+  },
+  {
+    "Id": 10001600,
+    "Type": 4,
+    "Name": "AddonToilet",
+    "Value": 10,
+    "Max": 100,
+    "Min": 0,
+    "Step": 10,
+    "DefaultValue": 0,
+    "ParentId": -1
+  },
+  {
+    "Id": 10001601,
+    "Type": 4,
+    "Name": "Maximum",
+    "Value": 0,
+    "Max": 15,
+    "Min": 1,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 10001600
+  },
+  {
+    "Id": 10001610,
+    "Type": 4,
+    "Name": "%roleTypes%Maximum",
+    "Value": 15,
+    "Max": 15,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 15,
+    "ParentId": 10001600
+  },
+  {
+    "Id": 10001611,
+    "Type": 0,
+    "Name": "FixedRole",
+    "Value": 7,
+    "Max": 242,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 10001610
+  },
+  {
+    "Id": 10001612,
+    "Type": 4,
+    "Name": "%roleTypes%Maximum",
+    "Value": 3,
+    "Max": 3,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 3,
+    "ParentId": 10001600
+  },
+  {
+    "Id": 10001613,
+    "Type": 0,
+    "Name": "FixedRole",
+    "Value": 7,
+    "Max": 242,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 10001612
+  },
+  {
+    "Id": 10001614,
+    "Type": 4,
+    "Name": "%roleTypes%Maximum",
+    "Value": 15,
+    "Max": 15,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 15,
+    "ParentId": 10001600
+  },
+  {
+    "Id": 10001615,
+    "Type": 0,
+    "Name": "FixedRole",
+    "Value": 7,
+    "Max": 242,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 10001614
+  },
+  {
+    "Id": 10001616,
+    "Type": 4,
+    "Name": "%roleTypes%Maximum",
+    "Value": 15,
+    "Max": 15,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 15,
+    "ParentId": 10001600
+  },
+  {
+    "Id": 10001617,
+    "Type": 0,
+    "Name": "FixedRole",
+    "Value": 7,
+    "Max": 242,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 10001616
+  },
+  {
+    "Id": 10001650,
+    "Type": 1,
+    "Name": "CanseeComms",
+    "Value": 1,
+    "Max": null,
+    "Min": null,
+    "Step": null,
+    "DefaultValue": 1,
+    "ParentId": 10001600
+  },
+  {
+    "Id": 18100,
+    "Type": 4,
+    "Name": "Watching",
+    "Value": 10,
+    "Max": 100,
+    "Min": 0,
+    "Step": 10,
+    "DefaultValue": 0,
+    "ParentId": -1
+  },
+  {
+    "Id": 18101,
+    "Type": 4,
+    "Name": "Maximum",
+    "Value": 0,
+    "Max": 15,
+    "Min": 1,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 18100
+  },
+  {
+    "Id": 18110,
+    "Type": 4,
+    "Name": "%roleTypes%Maximum",
+    "Value": 15,
+    "Max": 15,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 15,
+    "ParentId": 18100
+  },
+  {
+    "Id": 18111,
+    "Type": 0,
+    "Name": "FixedRole",
+    "Value": 7,
+    "Max": 242,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 18110
+  },
+  {
+    "Id": 18112,
+    "Type": 4,
+    "Name": "%roleTypes%Maximum",
+    "Value": 3,
+    "Max": 3,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 3,
+    "ParentId": 18100
+  },
+  {
+    "Id": 18113,
+    "Type": 0,
+    "Name": "FixedRole",
+    "Value": 7,
+    "Max": 242,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 18112
+  },
+  {
+    "Id": 18114,
+    "Type": 4,
+    "Name": "%roleTypes%Maximum",
+    "Value": 15,
+    "Max": 15,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 15,
+    "ParentId": 18100
+  },
+  {
+    "Id": 18115,
+    "Type": 0,
+    "Name": "FixedRole",
+    "Value": 7,
+    "Max": 242,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 18114
+  },
+  {
+    "Id": 18116,
+    "Type": 4,
+    "Name": "%roleTypes%Maximum",
+    "Value": 15,
+    "Max": 15,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 15,
+    "ParentId": 18100
+  },
+  {
+    "Id": 18117,
+    "Type": 0,
+    "Name": "FixedRole",
+    "Value": 7,
+    "Max": 242,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 18116
+  },
+  {
     "Id": 1000117,
     "Type": 7,
     "Name": "Debuff-Addon",
@@ -44262,6 +44262,116 @@
     "Step": null,
     "DefaultValue": 0,
     "ParentId": -1
+  },
+  {
+    "Id": 18300,
+    "Type": 4,
+    "Name": "Clumsy",
+    "Value": 10,
+    "Max": 100,
+    "Min": 0,
+    "Step": 10,
+    "DefaultValue": 0,
+    "ParentId": -1
+  },
+  {
+    "Id": 18301,
+    "Type": 4,
+    "Name": "Maximum",
+    "Value": 0,
+    "Max": 15,
+    "Min": 1,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 18300
+  },
+  {
+    "Id": 18310,
+    "Type": 4,
+    "Name": "%roleTypes%Maximum",
+    "Value": 15,
+    "Max": 15,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 15,
+    "ParentId": 18300
+  },
+  {
+    "Id": 18311,
+    "Type": 0,
+    "Name": "FixedRole",
+    "Value": 7,
+    "Max": 242,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 18310
+  },
+  {
+    "Id": 18312,
+    "Type": 4,
+    "Name": "%roleTypes%Maximum",
+    "Value": 3,
+    "Max": 3,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 3,
+    "ParentId": 18300
+  },
+  {
+    "Id": 18313,
+    "Type": 0,
+    "Name": "FixedRole",
+    "Value": 7,
+    "Max": 242,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 18312
+  },
+  {
+    "Id": 18314,
+    "Type": 4,
+    "Name": "%roleTypes%Maximum",
+    "Value": 15,
+    "Max": 15,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 15,
+    "ParentId": 18300
+  },
+  {
+    "Id": 18315,
+    "Type": 0,
+    "Name": "FixedRole",
+    "Value": 7,
+    "Max": 242,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 18314
+  },
+  {
+    "Id": 18316,
+    "Type": 4,
+    "Name": "%roleTypes%Maximum",
+    "Value": 15,
+    "Max": 15,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 15,
+    "ParentId": 18300
+  },
+  {
+    "Id": 18317,
+    "Type": 0,
+    "Name": "FixedRole",
+    "Value": 7,
+    "Max": 242,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 18316
   },
   {
     "Id": 18400,
@@ -44484,10 +44594,10 @@
     "ParentId": 18516
   },
   {
-    "Id": 10001800,
+    "Id": 23900,
     "Type": 4,
-    "Name": "Weakling",
-    "Value": 0,
+    "Name": "News",
+    "Value": 10,
     "Max": 100,
     "Min": 0,
     "Step": 10,
@@ -44495,7 +44605,7 @@
     "ParentId": -1
   },
   {
-    "Id": 10001801,
+    "Id": 23901,
     "Type": 4,
     "Name": "Maximum",
     "Value": 0,
@@ -44503,10 +44613,10 @@
     "Min": 1,
     "Step": 1,
     "DefaultValue": 0,
-    "ParentId": 10001800
+    "ParentId": 23900
   },
   {
-    "Id": 10001810,
+    "Id": 23910,
     "Type": 4,
     "Name": "%roleTypes%Maximum",
     "Value": 15,
@@ -44514,10 +44624,10 @@
     "Min": 0,
     "Step": 1,
     "DefaultValue": 15,
-    "ParentId": 10001800
+    "ParentId": 23900
   },
   {
-    "Id": 10001811,
+    "Id": 23911,
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
@@ -44525,10 +44635,10 @@
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0,
-    "ParentId": 10001810
+    "ParentId": 23910
   },
   {
-    "Id": 10001812,
+    "Id": 23912,
     "Type": 4,
     "Name": "%roleTypes%Maximum",
     "Value": 3,
@@ -44536,10 +44646,10 @@
     "Min": 0,
     "Step": 1,
     "DefaultValue": 3,
-    "ParentId": 10001800
+    "ParentId": 23900
   },
   {
-    "Id": 10001813,
+    "Id": 23913,
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
@@ -44547,10 +44657,10 @@
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0,
-    "ParentId": 10001812
+    "ParentId": 23912
   },
   {
-    "Id": 10001814,
+    "Id": 23914,
     "Type": 4,
     "Name": "%roleTypes%Maximum",
     "Value": 15,
@@ -44558,10 +44668,10 @@
     "Min": 0,
     "Step": 1,
     "DefaultValue": 15,
-    "ParentId": 10001800
+    "ParentId": 23900
   },
   {
-    "Id": 10001815,
+    "Id": 23915,
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
@@ -44569,10 +44679,10 @@
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0,
-    "ParentId": 10001814
+    "ParentId": 23914
   },
   {
-    "Id": 10001816,
+    "Id": 23916,
     "Type": 4,
     "Name": "%roleTypes%Maximum",
     "Value": 15,
@@ -44580,10 +44690,10 @@
     "Min": 0,
     "Step": 1,
     "DefaultValue": 15,
-    "ParentId": 10001800
+    "ParentId": 23900
   },
   {
-    "Id": 10001817,
+    "Id": 23917,
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
@@ -44591,34 +44701,67 @@
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0,
-    "ParentId": 10001816
+    "ParentId": 23916
   },
   {
-    "Id": 10001850,
-    "Type": 4,
-    "Name": "ProbabilityOfDeath",
-    "Value": 5,
-    "Max": 100,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 5,
-    "ParentId": 10001800
+    "Id": 23924,
+    "Type": 7,
+    "Name": "AddonOption",
+    "Value": 0,
+    "Max": null,
+    "Min": null,
+    "Step": null,
+    "DefaultValue": 0,
+    "ParentId": 23900
   },
   {
-    "Id": 10001860,
+    "Id": 23920,
     "Type": 4,
-    "Name": "ProcessingFrequency",
+    "Name": "NewsSendDay",
     "Value": 4,
-    "Max": 100,
+    "Max": 30,
     "Min": 0,
-    "Step": 5,
+    "Step": 1,
     "DefaultValue": 4,
-    "ParentId": 10001800
+    "ParentId": 23900
   },
   {
-    "Id": 19000,
+    "Id": 23921,
+    "Type": 1,
+    "Name": "Everyturn",
+    "Value": 0,
+    "Max": null,
+    "Min": null,
+    "Step": null,
+    "DefaultValue": 0,
+    "ParentId": 23920
+  },
+  {
+    "Id": 23922,
     "Type": 4,
-    "Name": "Water",
+    "Name": "NewsSendPlayerCount",
+    "Value": 6,
+    "Max": 15,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 6,
+    "ParentId": 23900
+  },
+  {
+    "Id": 23923,
+    "Type": 1,
+    "Name": "Everyturn",
+    "Value": 0,
+    "Max": null,
+    "Min": null,
+    "Step": null,
+    "DefaultValue": 0,
+    "ParentId": 23922
+  },
+  {
+    "Id": 18600,
+    "Type": 4,
+    "Name": "NonReport",
     "Value": 10,
     "Max": 100,
     "Min": 0,
@@ -44627,7 +44770,7 @@
     "ParentId": -1
   },
   {
-    "Id": 19001,
+    "Id": 18601,
     "Type": 4,
     "Name": "Maximum",
     "Value": 0,
@@ -44635,10 +44778,10 @@
     "Min": 1,
     "Step": 1,
     "DefaultValue": 0,
-    "ParentId": 19000
+    "ParentId": 18600
   },
   {
-    "Id": 19010,
+    "Id": 18610,
     "Type": 4,
     "Name": "%roleTypes%Maximum",
     "Value": 15,
@@ -44646,10 +44789,10 @@
     "Min": 0,
     "Step": 1,
     "DefaultValue": 15,
-    "ParentId": 19000
+    "ParentId": 18600
   },
   {
-    "Id": 19011,
+    "Id": 18611,
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
@@ -44657,10 +44800,10 @@
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0,
-    "ParentId": 19010
+    "ParentId": 18610
   },
   {
-    "Id": 19012,
+    "Id": 18612,
     "Type": 4,
     "Name": "%roleTypes%Maximum",
     "Value": 3,
@@ -44668,10 +44811,10 @@
     "Min": 0,
     "Step": 1,
     "DefaultValue": 3,
-    "ParentId": 19000
+    "ParentId": 18600
   },
   {
-    "Id": 19013,
+    "Id": 18613,
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
@@ -44679,10 +44822,10 @@
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0,
-    "ParentId": 19012
+    "ParentId": 18612
   },
   {
-    "Id": 19014,
+    "Id": 18614,
     "Type": 4,
     "Name": "%roleTypes%Maximum",
     "Value": 15,
@@ -44690,10 +44833,10 @@
     "Min": 0,
     "Step": 1,
     "DefaultValue": 15,
-    "ParentId": 19000
+    "ParentId": 18600
   },
   {
-    "Id": 19015,
+    "Id": 18615,
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
@@ -44701,10 +44844,10 @@
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0,
-    "ParentId": 19014
+    "ParentId": 18614
   },
   {
-    "Id": 19016,
+    "Id": 18616,
     "Type": 4,
     "Name": "%roleTypes%Maximum",
     "Value": 15,
@@ -44712,10 +44855,10 @@
     "Min": 0,
     "Step": 1,
     "DefaultValue": 15,
-    "ParentId": 19000
+    "ParentId": 18600
   },
   {
-    "Id": 19017,
+    "Id": 18617,
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
@@ -44723,12 +44866,34 @@
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0,
-    "ParentId": 19016
+    "ParentId": 18616
   },
   {
-    "Id": 18300,
+    "Id": 18651,
+    "Type": 7,
+    "Name": "AddonOption",
+    "Value": 0,
+    "Max": null,
+    "Min": null,
+    "Step": null,
+    "DefaultValue": 0,
+    "ParentId": 18600
+  },
+  {
+    "Id": 18650,
+    "Type": 6,
+    "Name": "ConverMode",
+    "Value": 0,
+    "Max": 2,
+    "Min": 2,
+    "Step": 2,
+    "DefaultValue": 0,
+    "ParentId": 18600
+  },
+  {
+    "Id": 18700,
     "Type": 4,
-    "Name": "Clumsy",
+    "Name": "Notvoter",
     "Value": 10,
     "Max": 100,
     "Min": 0,
@@ -44737,7 +44902,7 @@
     "ParentId": -1
   },
   {
-    "Id": 18301,
+    "Id": 18701,
     "Type": 4,
     "Name": "Maximum",
     "Value": 0,
@@ -44745,10 +44910,10 @@
     "Min": 1,
     "Step": 1,
     "DefaultValue": 0,
-    "ParentId": 18300
+    "ParentId": 18700
   },
   {
-    "Id": 18310,
+    "Id": 18710,
     "Type": 4,
     "Name": "%roleTypes%Maximum",
     "Value": 15,
@@ -44756,10 +44921,10 @@
     "Min": 0,
     "Step": 1,
     "DefaultValue": 15,
-    "ParentId": 18300
+    "ParentId": 18700
   },
   {
-    "Id": 18311,
+    "Id": 18711,
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
@@ -44767,10 +44932,10 @@
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0,
-    "ParentId": 18310
+    "ParentId": 18710
   },
   {
-    "Id": 18312,
+    "Id": 18712,
     "Type": 4,
     "Name": "%roleTypes%Maximum",
     "Value": 3,
@@ -44778,10 +44943,10 @@
     "Min": 0,
     "Step": 1,
     "DefaultValue": 3,
-    "ParentId": 18300
+    "ParentId": 18700
   },
   {
-    "Id": 18313,
+    "Id": 18713,
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
@@ -44789,10 +44954,10 @@
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0,
-    "ParentId": 18312
+    "ParentId": 18712
   },
   {
-    "Id": 18314,
+    "Id": 18714,
     "Type": 4,
     "Name": "%roleTypes%Maximum",
     "Value": 15,
@@ -44800,10 +44965,10 @@
     "Min": 0,
     "Step": 1,
     "DefaultValue": 15,
-    "ParentId": 18300
+    "ParentId": 18700
   },
   {
-    "Id": 18315,
+    "Id": 18715,
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
@@ -44811,10 +44976,10 @@
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0,
-    "ParentId": 18314
+    "ParentId": 18714
   },
   {
-    "Id": 18316,
+    "Id": 18716,
     "Type": 4,
     "Name": "%roleTypes%Maximum",
     "Value": 15,
@@ -44822,10 +44987,10 @@
     "Min": 0,
     "Step": 1,
     "DefaultValue": 15,
-    "ParentId": 18300
+    "ParentId": 18700
   },
   {
-    "Id": 18317,
+    "Id": 18717,
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
@@ -44833,7 +44998,7 @@
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0,
-    "ParentId": 18316
+    "ParentId": 18716
   },
   {
     "Id": 10005800,
@@ -44988,259 +45153,6 @@
     "Step": null,
     "DefaultValue": 0,
     "ParentId": 10005800
-  },
-  {
-    "Id": 24200,
-    "Type": 4,
-    "Name": "Sunglasses",
-    "Value": 10,
-    "Max": 100,
-    "Min": 0,
-    "Step": 10,
-    "DefaultValue": 0,
-    "ParentId": -1
-  },
-  {
-    "Id": 24201,
-    "Type": 4,
-    "Name": "Maximum",
-    "Value": 0,
-    "Max": 15,
-    "Min": 1,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 24200
-  },
-  {
-    "Id": 24210,
-    "Type": 4,
-    "Name": "%roleTypes%Maximum",
-    "Value": 15,
-    "Max": 15,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 15,
-    "ParentId": 24200
-  },
-  {
-    "Id": 24211,
-    "Type": 0,
-    "Name": "FixedRole",
-    "Value": 7,
-    "Max": 242,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 24210
-  },
-  {
-    "Id": 24212,
-    "Type": 4,
-    "Name": "%roleTypes%Maximum",
-    "Value": 3,
-    "Max": 3,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 3,
-    "ParentId": 24200
-  },
-  {
-    "Id": 24213,
-    "Type": 0,
-    "Name": "FixedRole",
-    "Value": 7,
-    "Max": 242,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 24212
-  },
-  {
-    "Id": 24214,
-    "Type": 4,
-    "Name": "%roleTypes%Maximum",
-    "Value": 15,
-    "Max": 15,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 15,
-    "ParentId": 24200
-  },
-  {
-    "Id": 24215,
-    "Type": 0,
-    "Name": "FixedRole",
-    "Value": 7,
-    "Max": 242,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 24214
-  },
-  {
-    "Id": 24216,
-    "Type": 4,
-    "Name": "%roleTypes%Maximum",
-    "Value": 15,
-    "Max": 15,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 15,
-    "ParentId": 24200
-  },
-  {
-    "Id": 24217,
-    "Type": 0,
-    "Name": "FixedRole",
-    "Value": 7,
-    "Max": 242,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 24216
-  },
-  {
-    "Id": 24250,
-    "Type": 3,
-    "Name": "SunglassesVisionmagnification",
-    "Value": 74,
-    "Max": 100,
-    "Min": 1,
-    "Step": 1,
-    "DefaultValue": 74,
-    "ParentId": 24200
-  },
-  {
-    "Id": 10007300,
-    "Type": 4,
-    "Name": "Spark",
-    "Value": 10,
-    "Max": 100,
-    "Min": 0,
-    "Step": 10,
-    "DefaultValue": 0,
-    "ParentId": -1
-  },
-  {
-    "Id": 10007301,
-    "Type": 4,
-    "Name": "Maximum",
-    "Value": 0,
-    "Max": 15,
-    "Min": 1,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 10007300
-  },
-  {
-    "Id": 10007310,
-    "Type": 4,
-    "Name": "%roleTypes%Maximum",
-    "Value": 15,
-    "Max": 15,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 15,
-    "ParentId": 10007300
-  },
-  {
-    "Id": 10007311,
-    "Type": 0,
-    "Name": "FixedRole",
-    "Value": 7,
-    "Max": 242,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 10007310
-  },
-  {
-    "Id": 10007312,
-    "Type": 4,
-    "Name": "%roleTypes%Maximum",
-    "Value": 3,
-    "Max": 3,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 3,
-    "ParentId": 10007300
-  },
-  {
-    "Id": 10007313,
-    "Type": 0,
-    "Name": "FixedRole",
-    "Value": 7,
-    "Max": 242,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 10007312
-  },
-  {
-    "Id": 10007314,
-    "Type": 4,
-    "Name": "%roleTypes%Maximum",
-    "Value": 15,
-    "Max": 15,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 15,
-    "ParentId": 10007300
-  },
-  {
-    "Id": 10007315,
-    "Type": 0,
-    "Name": "FixedRole",
-    "Value": 7,
-    "Max": 242,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 10007314
-  },
-  {
-    "Id": 10007316,
-    "Type": 4,
-    "Name": "%roleTypes%Maximum",
-    "Value": 15,
-    "Max": 15,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 15,
-    "ParentId": 10007300
-  },
-  {
-    "Id": 10007317,
-    "Type": 0,
-    "Name": "FixedRole",
-    "Value": 7,
-    "Max": 242,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 10007316
-  },
-  {
-    "Id": 10007350,
-    "Type": 3,
-    "Name": "SerialKillerLimit",
-    "Value": 55,
-    "Max": 900,
-    "Min": 5,
-    "Step": 1,
-    "DefaultValue": 55,
-    "ParentId": 10007300
-  },
-  {
-    "Id": 10007351,
-    "Type": 1,
-    "Name": "StartTimerOnFirstKill",
-    "Value": 1,
-    "Max": null,
-    "Min": null,
-    "Step": null,
-    "DefaultValue": 1,
-    "ParentId": 10007300
   },
   {
     "Id": 18800,
@@ -45430,6 +45342,259 @@
     "ParentId": 19500
   },
   {
+    "Id": 10007300,
+    "Type": 4,
+    "Name": "Spark",
+    "Value": 10,
+    "Max": 100,
+    "Min": 0,
+    "Step": 10,
+    "DefaultValue": 0,
+    "ParentId": -1
+  },
+  {
+    "Id": 10007301,
+    "Type": 4,
+    "Name": "Maximum",
+    "Value": 0,
+    "Max": 15,
+    "Min": 1,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 10007300
+  },
+  {
+    "Id": 10007310,
+    "Type": 4,
+    "Name": "%roleTypes%Maximum",
+    "Value": 15,
+    "Max": 15,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 15,
+    "ParentId": 10007300
+  },
+  {
+    "Id": 10007311,
+    "Type": 0,
+    "Name": "FixedRole",
+    "Value": 7,
+    "Max": 242,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 10007310
+  },
+  {
+    "Id": 10007312,
+    "Type": 4,
+    "Name": "%roleTypes%Maximum",
+    "Value": 3,
+    "Max": 3,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 3,
+    "ParentId": 10007300
+  },
+  {
+    "Id": 10007313,
+    "Type": 0,
+    "Name": "FixedRole",
+    "Value": 7,
+    "Max": 242,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 10007312
+  },
+  {
+    "Id": 10007314,
+    "Type": 4,
+    "Name": "%roleTypes%Maximum",
+    "Value": 15,
+    "Max": 15,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 15,
+    "ParentId": 10007300
+  },
+  {
+    "Id": 10007315,
+    "Type": 0,
+    "Name": "FixedRole",
+    "Value": 7,
+    "Max": 242,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 10007314
+  },
+  {
+    "Id": 10007316,
+    "Type": 4,
+    "Name": "%roleTypes%Maximum",
+    "Value": 15,
+    "Max": 15,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 15,
+    "ParentId": 10007300
+  },
+  {
+    "Id": 10007317,
+    "Type": 0,
+    "Name": "FixedRole",
+    "Value": 7,
+    "Max": 242,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 10007316
+  },
+  {
+    "Id": 10007350,
+    "Type": 3,
+    "Name": "SerialKillerLimit",
+    "Value": 55,
+    "Max": 900,
+    "Min": 5,
+    "Step": 1,
+    "DefaultValue": 55,
+    "ParentId": 10007300
+  },
+  {
+    "Id": 10007351,
+    "Type": 1,
+    "Name": "StartTimerOnFirstKill",
+    "Value": 1,
+    "Max": null,
+    "Min": null,
+    "Step": null,
+    "DefaultValue": 1,
+    "ParentId": 10007300
+  },
+  {
+    "Id": 24200,
+    "Type": 4,
+    "Name": "Sunglasses",
+    "Value": 10,
+    "Max": 100,
+    "Min": 0,
+    "Step": 10,
+    "DefaultValue": 0,
+    "ParentId": -1
+  },
+  {
+    "Id": 24201,
+    "Type": 4,
+    "Name": "Maximum",
+    "Value": 0,
+    "Max": 15,
+    "Min": 1,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 24200
+  },
+  {
+    "Id": 24210,
+    "Type": 4,
+    "Name": "%roleTypes%Maximum",
+    "Value": 15,
+    "Max": 15,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 15,
+    "ParentId": 24200
+  },
+  {
+    "Id": 24211,
+    "Type": 0,
+    "Name": "FixedRole",
+    "Value": 7,
+    "Max": 242,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 24210
+  },
+  {
+    "Id": 24212,
+    "Type": 4,
+    "Name": "%roleTypes%Maximum",
+    "Value": 3,
+    "Max": 3,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 3,
+    "ParentId": 24200
+  },
+  {
+    "Id": 24213,
+    "Type": 0,
+    "Name": "FixedRole",
+    "Value": 7,
+    "Max": 242,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 24212
+  },
+  {
+    "Id": 24214,
+    "Type": 4,
+    "Name": "%roleTypes%Maximum",
+    "Value": 15,
+    "Max": 15,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 15,
+    "ParentId": 24200
+  },
+  {
+    "Id": 24215,
+    "Type": 0,
+    "Name": "FixedRole",
+    "Value": 7,
+    "Max": 242,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 24214
+  },
+  {
+    "Id": 24216,
+    "Type": 4,
+    "Name": "%roleTypes%Maximum",
+    "Value": 15,
+    "Max": 15,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 15,
+    "ParentId": 24200
+  },
+  {
+    "Id": 24217,
+    "Type": 0,
+    "Name": "FixedRole",
+    "Value": 7,
+    "Max": 242,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 24216
+  },
+  {
+    "Id": 24250,
+    "Type": 3,
+    "Name": "SunglassesVisionmagnification",
+    "Value": 74,
+    "Max": 100,
+    "Min": 1,
+    "Step": 1,
+    "DefaultValue": 74,
+    "ParentId": 24200
+  },
+  {
     "Id": 18900,
     "Type": 4,
     "Name": "Transparent",
@@ -45540,9 +45705,9 @@
     "ParentId": 18916
   },
   {
-    "Id": 23900,
+    "Id": 19000,
     "Type": 4,
-    "Name": "News",
+    "Name": "Water",
     "Value": 10,
     "Max": 100,
     "Min": 0,
@@ -45551,7 +45716,7 @@
     "ParentId": -1
   },
   {
-    "Id": 23901,
+    "Id": 19001,
     "Type": 4,
     "Name": "Maximum",
     "Value": 0,
@@ -45559,10 +45724,10 @@
     "Min": 1,
     "Step": 1,
     "DefaultValue": 0,
-    "ParentId": 23900
+    "ParentId": 19000
   },
   {
-    "Id": 23910,
+    "Id": 19010,
     "Type": 4,
     "Name": "%roleTypes%Maximum",
     "Value": 15,
@@ -45570,10 +45735,10 @@
     "Min": 0,
     "Step": 1,
     "DefaultValue": 15,
-    "ParentId": 23900
+    "ParentId": 19000
   },
   {
-    "Id": 23911,
+    "Id": 19011,
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
@@ -45581,10 +45746,10 @@
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0,
-    "ParentId": 23910
+    "ParentId": 19010
   },
   {
-    "Id": 23912,
+    "Id": 19012,
     "Type": 4,
     "Name": "%roleTypes%Maximum",
     "Value": 3,
@@ -45592,10 +45757,10 @@
     "Min": 0,
     "Step": 1,
     "DefaultValue": 3,
-    "ParentId": 23900
+    "ParentId": 19000
   },
   {
-    "Id": 23913,
+    "Id": 19013,
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
@@ -45603,10 +45768,10 @@
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0,
-    "ParentId": 23912
+    "ParentId": 19012
   },
   {
-    "Id": 23914,
+    "Id": 19014,
     "Type": 4,
     "Name": "%roleTypes%Maximum",
     "Value": 15,
@@ -45614,10 +45779,10 @@
     "Min": 0,
     "Step": 1,
     "DefaultValue": 15,
-    "ParentId": 23900
+    "ParentId": 19000
   },
   {
-    "Id": 23915,
+    "Id": 19015,
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
@@ -45625,10 +45790,10 @@
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0,
-    "ParentId": 23914
+    "ParentId": 19014
   },
   {
-    "Id": 23916,
+    "Id": 19016,
     "Type": 4,
     "Name": "%roleTypes%Maximum",
     "Value": 15,
@@ -45636,10 +45801,10 @@
     "Min": 0,
     "Step": 1,
     "DefaultValue": 15,
-    "ParentId": 23900
+    "ParentId": 19000
   },
   {
-    "Id": 23917,
+    "Id": 19017,
     "Type": 0,
     "Name": "FixedRole",
     "Value": 7,
@@ -45647,304 +45812,139 @@
     "Min": 0,
     "Step": 1,
     "DefaultValue": 0,
-    "ParentId": 23916
+    "ParentId": 19016
   },
   {
-    "Id": 23924,
-    "Type": 7,
-    "Name": "AddonOption",
+    "Id": 10001800,
+    "Type": 4,
+    "Name": "Weakling",
     "Value": 0,
-    "Max": null,
-    "Min": null,
-    "Step": null,
+    "Max": 100,
+    "Min": 0,
+    "Step": 10,
     "DefaultValue": 0,
-    "ParentId": 23900
+    "ParentId": -1
   },
   {
-    "Id": 23920,
+    "Id": 10001801,
     "Type": 4,
-    "Name": "NewsSendDay",
+    "Name": "Maximum",
+    "Value": 0,
+    "Max": 15,
+    "Min": 1,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 10001800
+  },
+  {
+    "Id": 10001810,
+    "Type": 4,
+    "Name": "%roleTypes%Maximum",
+    "Value": 15,
+    "Max": 15,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 15,
+    "ParentId": 10001800
+  },
+  {
+    "Id": 10001811,
+    "Type": 0,
+    "Name": "FixedRole",
+    "Value": 7,
+    "Max": 242,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 10001810
+  },
+  {
+    "Id": 10001812,
+    "Type": 4,
+    "Name": "%roleTypes%Maximum",
+    "Value": 3,
+    "Max": 3,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 3,
+    "ParentId": 10001800
+  },
+  {
+    "Id": 10001813,
+    "Type": 0,
+    "Name": "FixedRole",
+    "Value": 7,
+    "Max": 242,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 10001812
+  },
+  {
+    "Id": 10001814,
+    "Type": 4,
+    "Name": "%roleTypes%Maximum",
+    "Value": 15,
+    "Max": 15,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 15,
+    "ParentId": 10001800
+  },
+  {
+    "Id": 10001815,
+    "Type": 0,
+    "Name": "FixedRole",
+    "Value": 7,
+    "Max": 242,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 10001814
+  },
+  {
+    "Id": 10001816,
+    "Type": 4,
+    "Name": "%roleTypes%Maximum",
+    "Value": 15,
+    "Max": 15,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 15,
+    "ParentId": 10001800
+  },
+  {
+    "Id": 10001817,
+    "Type": 0,
+    "Name": "FixedRole",
+    "Value": 7,
+    "Max": 242,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 0,
+    "ParentId": 10001816
+  },
+  {
+    "Id": 10001850,
+    "Type": 4,
+    "Name": "ProbabilityOfDeath",
+    "Value": 5,
+    "Max": 100,
+    "Min": 0,
+    "Step": 1,
+    "DefaultValue": 5,
+    "ParentId": 10001800
+  },
+  {
+    "Id": 10001860,
+    "Type": 4,
+    "Name": "ProcessingFrequency",
     "Value": 4,
-    "Max": 30,
+    "Max": 100,
     "Min": 0,
-    "Step": 1,
+    "Step": 5,
     "DefaultValue": 4,
-    "ParentId": 23900
-  },
-  {
-    "Id": 23921,
-    "Type": 1,
-    "Name": "Everyturn",
-    "Value": 0,
-    "Max": null,
-    "Min": null,
-    "Step": null,
-    "DefaultValue": 0,
-    "ParentId": 23920
-  },
-  {
-    "Id": 23922,
-    "Type": 4,
-    "Name": "NewsSendPlayerCount",
-    "Value": 6,
-    "Max": 15,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 6,
-    "ParentId": 23900
-  },
-  {
-    "Id": 23923,
-    "Type": 1,
-    "Name": "Everyturn",
-    "Value": 0,
-    "Max": null,
-    "Min": null,
-    "Step": null,
-    "DefaultValue": 0,
-    "ParentId": 23922
-  },
-  {
-    "Id": 18700,
-    "Type": 4,
-    "Name": "Notvoter",
-    "Value": 10,
-    "Max": 100,
-    "Min": 0,
-    "Step": 10,
-    "DefaultValue": 0,
-    "ParentId": -1
-  },
-  {
-    "Id": 18701,
-    "Type": 4,
-    "Name": "Maximum",
-    "Value": 0,
-    "Max": 15,
-    "Min": 1,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 18700
-  },
-  {
-    "Id": 18710,
-    "Type": 4,
-    "Name": "%roleTypes%Maximum",
-    "Value": 15,
-    "Max": 15,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 15,
-    "ParentId": 18700
-  },
-  {
-    "Id": 18711,
-    "Type": 0,
-    "Name": "FixedRole",
-    "Value": 7,
-    "Max": 242,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 18710
-  },
-  {
-    "Id": 18712,
-    "Type": 4,
-    "Name": "%roleTypes%Maximum",
-    "Value": 3,
-    "Max": 3,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 3,
-    "ParentId": 18700
-  },
-  {
-    "Id": 18713,
-    "Type": 0,
-    "Name": "FixedRole",
-    "Value": 7,
-    "Max": 242,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 18712
-  },
-  {
-    "Id": 18714,
-    "Type": 4,
-    "Name": "%roleTypes%Maximum",
-    "Value": 15,
-    "Max": 15,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 15,
-    "ParentId": 18700
-  },
-  {
-    "Id": 18715,
-    "Type": 0,
-    "Name": "FixedRole",
-    "Value": 7,
-    "Max": 242,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 18714
-  },
-  {
-    "Id": 18716,
-    "Type": 4,
-    "Name": "%roleTypes%Maximum",
-    "Value": 15,
-    "Max": 15,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 15,
-    "ParentId": 18700
-  },
-  {
-    "Id": 18717,
-    "Type": 0,
-    "Name": "FixedRole",
-    "Value": 7,
-    "Max": 242,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 18716
-  },
-  {
-    "Id": 18600,
-    "Type": 4,
-    "Name": "NonReport",
-    "Value": 10,
-    "Max": 100,
-    "Min": 0,
-    "Step": 10,
-    "DefaultValue": 0,
-    "ParentId": -1
-  },
-  {
-    "Id": 18601,
-    "Type": 4,
-    "Name": "Maximum",
-    "Value": 0,
-    "Max": 15,
-    "Min": 1,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 18600
-  },
-  {
-    "Id": 18610,
-    "Type": 4,
-    "Name": "%roleTypes%Maximum",
-    "Value": 15,
-    "Max": 15,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 15,
-    "ParentId": 18600
-  },
-  {
-    "Id": 18611,
-    "Type": 0,
-    "Name": "FixedRole",
-    "Value": 7,
-    "Max": 242,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 18610
-  },
-  {
-    "Id": 18612,
-    "Type": 4,
-    "Name": "%roleTypes%Maximum",
-    "Value": 3,
-    "Max": 3,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 3,
-    "ParentId": 18600
-  },
-  {
-    "Id": 18613,
-    "Type": 0,
-    "Name": "FixedRole",
-    "Value": 7,
-    "Max": 242,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 18612
-  },
-  {
-    "Id": 18614,
-    "Type": 4,
-    "Name": "%roleTypes%Maximum",
-    "Value": 15,
-    "Max": 15,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 15,
-    "ParentId": 18600
-  },
-  {
-    "Id": 18615,
-    "Type": 0,
-    "Name": "FixedRole",
-    "Value": 7,
-    "Max": 242,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 18614
-  },
-  {
-    "Id": 18616,
-    "Type": 4,
-    "Name": "%roleTypes%Maximum",
-    "Value": 15,
-    "Max": 15,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 15,
-    "ParentId": 18600
-  },
-  {
-    "Id": 18617,
-    "Type": 0,
-    "Name": "FixedRole",
-    "Value": 7,
-    "Max": 242,
-    "Min": 0,
-    "Step": 1,
-    "DefaultValue": 0,
-    "ParentId": 18616
-  },
-  {
-    "Id": 18651,
-    "Type": 7,
-    "Name": "AddonOption",
-    "Value": 0,
-    "Max": null,
-    "Min": null,
-    "Step": null,
-    "DefaultValue": 0,
-    "ParentId": 18600
-  },
-  {
-    "Id": 18650,
-    "Type": 6,
-    "Name": "ConverMode",
-    "Value": 0,
-    "Max": 2,
-    "Min": 2,
-    "Step": 2,
-    "DefaultValue": 0,
-    "ParentId": 18600
+    "ParentId": 10001800
   },
   {
     "Id": 18200,
