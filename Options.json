@@ -15719,6 +15719,17 @@
     "ParentId": 8814
   },
   {
+    "Id": 8877,
+    "Type": 1,
+    "Name": "SheriffCanKill%role%",
+    "Value": 1,
+    "Max": null,
+    "Min": null,
+    "Step": null,
+    "DefaultValue": 1,
+    "ParentId": 8814
+  },
+  {
     "Id": 8816,
     "Type": 1,
     "Name": "SheriffCanKillLovers",
@@ -16358,6 +16369,17 @@
   },
   {
     "Id": 8976,
+    "Type": 1,
+    "Name": "SheriffCanKill%role%",
+    "Value": 1,
+    "Max": null,
+    "Min": null,
+    "Step": null,
+    "DefaultValue": 1,
+    "ParentId": 8914
+  },
+  {
+    "Id": 8977,
     "Type": 1,
     "Name": "SheriffCanKill%role%",
     "Value": 1,
