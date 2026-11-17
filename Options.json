@@ -880,17 +880,6 @@
     "ParentId": 100000
   },
   {
-    "Id": 100005,
-    "Type": 1,
-    "Name": "AllPlayerSkinShuffle",
-    "Value": 0,
-    "Max": null,
-    "Min": null,
-    "Step": null,
-    "DefaultValue": 0,
-    "ParentId": 100000
-  },
-  {
     "Id": 105000,
     "Type": 1,
     "Name": "ExperimentalMode",
