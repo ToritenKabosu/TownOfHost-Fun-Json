@@ -374,17 +374,6 @@
     "ParentId": -1
   },
   {
-    "Id": 101000,
-    "Type": 1,
-    "Name": "SuddenDeathModeActive",
-    "Value": 0,
-    "Max": null,
-    "Min": null,
-    "Step": null,
-    "DefaultValue": 0,
-    "ParentId": -1
-  },
-  {
     "Id": 101001,
     "Type": 1,
     "Name": "SuddenSharingRoles",
@@ -646,7 +635,7 @@
     "Min": null,
     "Step": null,
     "DefaultValue": 0,
-    "ParentId": 101000
+    "ParentId": -1
   },
   {
     "Id": 101035,
