@@ -48777,7 +48777,7 @@
     "Id": 108000,
     "Type": 1,
     "Name": "Sabotage",
-    "Value": 0,
+    "Value": 1,
     "Max": null,
     "Min": null,
     "Step": null,
